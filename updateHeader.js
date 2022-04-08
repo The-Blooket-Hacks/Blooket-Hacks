@@ -1,5 +1,5 @@
 function setHeader(name, iconUrl, CBS, quantity, rating, sellPrice) {
-	var body = document.getElementbyId("body");
+	var body = document.getElementById("body");
 	var regular = body.getElementsByClassName("arts__regularBody___1TM6E-camelCase")[0];
 	var headerContainer = regular.getElementsByClassName("styles__headerContainer___3jbD1-camelCase")[0];
 	var blookContainer = headerContainer.getElementsByClassName("styles__blookContainer___36LK2-camelCase styles__headerBlookImage___2DD0v-camelCase")[0];
