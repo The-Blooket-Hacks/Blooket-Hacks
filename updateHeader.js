@@ -1,4 +1,4 @@
-const node
+var node
 var body
 var newBody
 var modal
