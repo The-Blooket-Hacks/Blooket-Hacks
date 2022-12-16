@@ -1,7 +1,7 @@
 function highlightAns() { function makeRed(answerText) {
     var allDivs = document.getElementsByTagName("div");
 
-for(var i=0;i<mySpans.length;i++){
+for(var i=0;i<allDivs.length;i++){
 
 if(mySpans[i].innerHTML == answerText){
 
@@ -16,7 +16,7 @@ break;
 function makeGreen(answerText) {
     var allDivs = document.getElementsByTagName("div");
 
-for(var i=0;i<mySpans.length;i++){
+for(var i=0;i<allDivs.length;i++){
 
 if(mySpans[i].innerHTML == answerText){
 
