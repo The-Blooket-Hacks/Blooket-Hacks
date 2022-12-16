@@ -8,13 +8,13 @@ setInterval(function(){var obj = Object.values(document.querySelector("#app > di
     {
       "type": "swap",
       "text": "SWAP!",
-      "blook": "White Peacock"
+      "blook": "Spooky Ghost"
     },
     {
       "type": "gold",
       "val": 1000000,
-      "text": "+ 100000000 Gold",
-      "blook": "Ice Slime"
+      "text": "+1M Gold",
+      "blook": "Tim the Alien"
       
     }
   ]
