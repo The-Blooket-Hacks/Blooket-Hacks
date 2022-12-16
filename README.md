@@ -5,6 +5,6 @@ I have based these of some other peoples', with some edits to improve it.
 
 ## Credits:
 
-In no specific order:
+In no specific order:<br>
 [rxzyx](https://github.com/rxzyx)<br>
 [LionsRH555](https://github.com/LionsRH555)
