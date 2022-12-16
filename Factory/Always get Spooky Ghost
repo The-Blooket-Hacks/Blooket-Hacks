@@ -3,7 +3,7 @@
    obj.name = "Spooky Ghost";
    obj.time = [
      0.1, 0.1 , 0.1 , 0.1 , 0.1];
-   obj.cash = [1e100, 1e100, 1e100, 1e100, 1e100];
+   obj.cash = [1e100];
    obj.price = [0,0,0,0
    ]
    obj.class = "👻";
