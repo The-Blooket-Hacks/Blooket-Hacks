@@ -1,11 +1,36 @@
-function highlightAns(answer) {
-    document.getElementById(`answer${Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.answers.indexOf(answer)}`).children[0].style = "background-color: rgb(12, 176, 74);";
+function highlightAns() { function makeRed(answerText) {
+    var allDivs = document.getElementsByTagName("div");
+
+for(var i=0;i<mySpans.length;i++){
+
+if(mySpans[i].innerHTML == answerText){
+
+mySpans[i].parentNode.parentNode.style = "background-color: rgb(242, 57, 65);";
+break;
+
 }
-function highlightAnswers() {
-document.getElementById("answer0").children[0].style = "background-color: rgb(242, 57, 65);";
-document.getElementById("answer1").children[0].style = "background-color: rgb(242, 57, 65);";
-document.getElementById("answer2").children[0].style = "background-color: rgb(242, 57, 65);";
-document.getElementById("answer3").children[0].style = "background-color: rgb(242, 57, 65);";
-Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.correctAnswers.forEach(answer => highlightAns(answer))
+
 }
-window.setInterval(highlightAnswers)
+}
+
+function makeGreen(answerText) {
+    var allDivs = document.getElementsByTagName("div");
+
+for(var i=0;i<mySpans.length;i++){
+
+if(mySpans[i].innerHTML == answerText){
+
+mySpans[i].parentNode.parentNode.style = "background-color: rgb(12, 176, 74);";
+break;
+
+}
+
+}
+}
+
+Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.answers.forEach(text => makeRed(text))
+
+Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.correctAnswers.forEach(text => makeGreen(text))  }
+
+
+window.setInterval(highlightAns)
