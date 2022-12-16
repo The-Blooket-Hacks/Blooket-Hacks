@@ -3,7 +3,7 @@ setInterval(function(){var obj = Object.values(document.querySelector("#app > di
       "type": "multiply",
       "val": 100,
       "text": "Multiply Gold!",
-      "blook": "Ice Crab"
+      "blook": "Rainbow Astronaut"
     },
     {
       "type": "swap",
