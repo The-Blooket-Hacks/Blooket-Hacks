@@ -3,9 +3,9 @@ function highlightAns() { function makeRed(answerText) {
 
 for(var i=0;i<allDivs.length;i++){
 
-if(mySpans[i].innerHTML == answerText){
+if(allDivs[i].innerHTML == answerText){
 
-mySpans[i].parentNode.parentNode.style = "background-color: rgb(242, 57, 65);";
+allDivs[i].parentNode.parentNode.style = "background-color: rgb(242, 57, 65);";
 break;
 
 }
@@ -18,9 +18,9 @@ function makeGreen(answerText) {
 
 for(var i=0;i<allDivs.length;i++){
 
-if(mySpans[i].innerHTML == answerText){
+if(allDivs[i].innerHTML == answerText){
 
-mySpans[i].parentNode.parentNode.style = "background-color: rgb(12, 176, 74);";
+allDivs[i].parentNode.parentNode.style = "background-color: rgb(12, 176, 74);";
 break;
 
 }
