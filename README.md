@@ -5,4 +5,6 @@ I have based these of some other peoples', with some edits to improve it.
 
 ## Credits:
 
-<img src="https://avatars.githubusercontent.com/u/96795852?s=48&v=4" style="border-radius:100%;"> Rxzyx
+In no specific order:
+[rxzyx](https://github.com/rxzyx)
+[LionsRH555](https://github.com/LionsRH555)
