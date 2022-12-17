@@ -15,7 +15,7 @@ break;
 
 if(players[i].innerHTML == player.name){
 
-players[i].parentNode.parentNode.style = "color:green;";
+players[i].parentNode.parentNode.style = "color:lightgreen;";
 break;
 
 }
