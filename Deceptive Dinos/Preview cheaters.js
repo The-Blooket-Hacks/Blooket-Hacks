@@ -5,7 +5,7 @@ function checkPlayer(player) {
 
 if(players[i].innerHTML == player.name){
 
-players[i].parentNode.parentNode.style = "color:red;";
+players[i].parentNode.parentNode.style = "color:lightcoral;";
 break;
 
 }
