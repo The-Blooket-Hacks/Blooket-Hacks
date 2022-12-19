@@ -137,6 +137,7 @@
 - [codemaster123puppy](https://github.com/codemaster123puppy) for some parts of the scripts<br>
 - [CrazyH2](https://github.com/crazyh2) for the readme file and other things
 
+<p align="right"><a href="#readme-top">(Back To Top)</a></p>
 <!-- CONTACT -->
 ## Contact
 
@@ -146,11 +147,13 @@
 
 - Project Link: [https://github.com/cph101/blooket-hacks](https://github.com/cph101/blooket_hacks)
 
+<p align="right"><a href="#readme-top">(Back To Top)</a></p>
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
+<p align="right"><a href="#readme-top">(Back To Top)</a></p>
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
