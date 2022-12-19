@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/cph101/Blooket-Hacks">
-    <img src="images/logo.png" alt="Logo" width="175" height="190">
+    <img src="images/icon.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Blooket Hacks</h3>
