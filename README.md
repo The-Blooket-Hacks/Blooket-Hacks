@@ -132,7 +132,7 @@
 [rxzyx](https://github.com/rxzyx) for some of the scripts<br>
 [LionsRH555](https://github.com/LionsRH555) for some of the scripts<br>
 [VirescentOverlord](https://github.com/VirescentOverlord) for some of the scripts<br>
-[codemaster123puppy](https://github.com/codemaster123puppy) for some of the scripts
+[codemaster123puppy](https://github.com/codemaster123puppy) for some of the scripts<br>
 [CrazyH2](https://github.com/crazyh2) for the readme file
 
 <p align="right"><a href="#readme-top">(Back To Top)</a></p>
