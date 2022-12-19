@@ -1,6 +1,6 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<img src="images/header.png" width="100%" height="40%" />
+<img src="images/head.png" width="100%" height="40%" />
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -126,15 +126,15 @@
   <br/>
   </ol>
 </details>
+<hr>
 
-## Credits:
-
-[rxzyx](https://github.com/rxzyx) for some of the scripts<br>
-[LionsRH555](https://github.com/LionsRH555) for some of the scripts<br>
-[VirescentOverlord](https://github.com/VirescentOverlord) for some of the scripts<br>
-[codemaster123puppy](https://github.com/codemaster123puppy) for some of the scripts<br>
-[CrazyH2](https://github.com/crazyh2) for the readme file
+### Credits
+- [rxzyx](https://github.com/rxzyx) for some parts of the scripts<br>
+- [LionsRH555](https://github.com/LionsRH555) for some parts of the scripts<br>
+- [VirescentOverlord](https://github.com/VirescentOverlord) for some parts of the scripts<br>
+- [codemaster123puppy](https://github.com/codemaster123puppy) for some parts of the scripts<br>
+- [CrazyH2](https://github.com/crazyh2) for the readme file
 
 <p align="right"><a href="#readme-top">(Back To Top)</a></p>
 
-<img src="images/footer.png" width="100%" height="40%" />
+<img src="images/foot.png" width="100%" height="40%" />
