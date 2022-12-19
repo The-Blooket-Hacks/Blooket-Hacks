@@ -7,8 +7,10 @@
   <a href="https://github.com/cph101/Blooket-Hacks">
     <img src="images/animated_icon.gif" alt="Logo" width="200" height="200">
   </a>
-
-<h3 align="center">Blooket Hacks</h3>
+  
+<br/><br/>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=676767&center=true&vCenter=true&width=435&lines=Blooket+Hacks" alt="Typing SVG" /></a>
+<br/>
 
   <p align="center">
    Welcome to the first repository with fully unobfuscated, working hacks.
