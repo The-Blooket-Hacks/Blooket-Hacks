@@ -1,6 +1,6 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<img src="img/banner.png" width="100%" height="100%" />
+<img src="images/header.png" width="100%" height="40%" />
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -136,4 +136,5 @@ In no specific order:<br>
 [codemaster123puppy](https://github.com/codemaster123puppy)
 
 <p align="right"><a href="#readme-top">(Back To Top)</a></p>
-<img src="images/bottom_banner.png" width="100%" height="40%" />
+
+<img src="images/footer.png" width="100%" height="40%" />
