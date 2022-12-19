@@ -9,6 +9,7 @@
   </a>
   
 <h3 align="center">Blooket Hacks</h3>
+<h5 align="center">Made by <a href="https://github.com/cph101/">cph101</a> & <a href="https://github.com/crazyh2/">CrazyH</a></h3>
 
   <p align="center">
    Welcome to the first repository with fully unobfuscated, working hacks.
