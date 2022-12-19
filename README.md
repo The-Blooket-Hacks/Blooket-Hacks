@@ -129,11 +129,11 @@
 
 ## Credits:
 
-In no specific order:<br>
-[rxzyx](https://github.com/rxzyx)<br>
-[LionsRH555](https://github.com/LionsRH555)<br>
-[VirescentOverlord](https://github.com/VirescentOverlord)<br>
-[codemaster123puppy](https://github.com/codemaster123puppy)
+[rxzyx](https://github.com/rxzyx) some of the scripts<br>
+[LionsRH555](https://github.com/LionsRH555) some of the scripts<br>
+[VirescentOverlord](https://github.com/VirescentOverlord) some of the scripts<br>
+[codemaster123puppy](https://github.com/codemaster123puppy) some of the scripts
+[CrazyH2](https://github.com/crazyh2) helped make the readme more readable
 
 <p align="right"><a href="#readme-top">(Back To Top)</a></p>
 
