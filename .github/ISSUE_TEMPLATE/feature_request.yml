@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug report
-title: "[Bug]: "
+title: "🪲 Bug: "
 labels: ["bug", "help wanted"]
 assignees:
   - cph101, CrazyH2
@@ -43,6 +43,8 @@ body:
         - Safari
         - Opera / (GX)
         - Firefox
+      validations:
+        required: true
   - type: textarea
     id: logs
     attributes:
