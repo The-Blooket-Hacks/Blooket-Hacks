@@ -43,8 +43,17 @@ body:
         - Safari
         - Opera / (GX)
         - Firefox
-      validations:
-        required: true
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: otherbrowser
+    attributes:
+      label: Browser
+      description: If you answered Other to the previous question, please extend.
+      placeholder: Mosaic
+    validations:
+      required: false
   - type: textarea
     id: logs
     attributes:
