@@ -33,8 +33,8 @@ body:
       placeholder: That I have infinite XP
     validations:
       required: true
-  - type: existing code
-    id: logs
+  - type: markdown
+    id: existingcode
     attributes:
       label: Any existing code
       description: If you know of any existing code that would help us delope this hack for you, please paste it here.
