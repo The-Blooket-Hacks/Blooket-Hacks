@@ -18,11 +18,11 @@
    We have based some of these off other peoples', with some edits to improve it.
     <br />
     <br />
-    <a href="https://github.com/cph101/Blooket-Hacks/wiki">View Wiki</a>
+    <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/wiki">View Wiki</a>
     ·
-    <a href="https://github.com/cph101/Blooket-Hacks/issues/new?assignees=cph101%2C+CrazyH2&labels=bug%2Chelp+wanted&template=bug_report.yml&title=🪲+Bug%3A+">Report Bug</a>
+    <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/issues/new?assignees=cph101%2C+CrazyH2&labels=bug%2Chelp+wanted&template=bug_report.yml&title=🪲+Bug%3A+">Report Bug</a>
     ·
-    <a href="https://github.com/cph101/Blooket-Hacks/issues/new?assignees=cph101%2C+CrazyH2&labels=enhancement&template=hack_request.yml&title=🏝%EF%B8%8F+Feature+Request%3A+">Request Hack</a>
+    <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/issues/new?assignees=cph101%2C+CrazyH2&labels=enhancement&template=hack_request.yml&title=🏝%EF%B8%8F+Feature+Request%3A+">Request Hack</a>
     ·
     <a href="https://discord.gg/Td44dJqqcT">Join the support Discod</a>
   </p>
