@@ -14,7 +14,7 @@
   <p align="center">
    Welcome to the first repository with fully unobfuscated, working hacks.
    I will strive to only provide unobfuscated versions, so that people know what is in it.
-   *Please do not market it as your own, and make forks private please.*
+   <i>Please do not market it as your own, and make forks private please.</i>
    I have based some of these off other peoples', with some edits to improve it.
     <br />
     <br />
