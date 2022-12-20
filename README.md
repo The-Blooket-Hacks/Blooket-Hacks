@@ -139,14 +139,6 @@
 - Paste the code in at the bottom of the page in the console box
 - Click enter and then click the X in the top corner of the console
 
-<!-- CREDITS -->
-## Credits
-- [rxzyx](https://github.com/rxzyx) for some parts of the scripts<br>
-- [LionsRH555](https://github.com/LionsRH555) for some parts of the scripts<br>
-- [VirescentOverlord](https://github.com/VirescentOverlord) for some parts of the scripts<br>
-- [codemaster123puppy](https://github.com/codemaster123puppy) for some parts of the scripts<br>
-- [CrazyH2](https://github.com/crazyh2) for the readme file and other things
-
 <!-- CONTACT -->
 ## Contact
 
