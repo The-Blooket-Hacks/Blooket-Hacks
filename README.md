@@ -142,7 +142,7 @@
 <!-- CONTACT -->
 ## Contact
 
-•  cph101 • cph101\#\&#x30;&#x30;&#x30;1 • cph101@icloud.com</span>
+•  cph101 • cph101\#\<span>&#x30;&#x30;&#x30;</span>1 • cph101@icloud.com</span>
 
 •  Crazyh • Huckle\#4707 • crazyh.dev@gmail.com
 
