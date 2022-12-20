@@ -25,7 +25,7 @@ body:
       placeholder: ex. Blook Rush
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: function
     attributes:
       label: Requested function
@@ -33,7 +33,7 @@ body:
       placeholder: That I have infinite XP
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: existingcode
     attributes:
       label: Any existing code
