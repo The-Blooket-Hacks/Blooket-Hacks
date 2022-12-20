@@ -22,7 +22,7 @@ body:
     attributes:
       label: Hacks used
       description: What hacks were you using when the issue happened
-      placeholder: ex. Gobal/Get All Blooks.js
+      placeholder: ex. Global/Get All Blooks.js
     validations:
       required: true
   - type: textarea
