@@ -46,7 +46,7 @@
 
 •  Crazyh • Huckle\#4707 • crazyh.dev@gmail.com
 
-•  Project Link: [https://github.com/cph101/blooket-hacks](https://github.com/cph101/blooket_hacks)
+•  Project Link: [https://github.com/blooket-cheats/blooket-hacks](https://github.com/blooket-cheats/blooket_hacks)
 
 <!-- LICENSE -->
 ## License
