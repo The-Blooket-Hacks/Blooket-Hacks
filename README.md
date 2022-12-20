@@ -142,11 +142,11 @@
 <!-- CONTACT -->
 ## Contact
 
-<span>- cph101 - cph101#0001 - cph101@icloud.com</span>
+•  cph101 • cph101#0001 • cph101@icloud.com</span>
 
-- Crazyh - Huckle#4707 - crazyh.dev@gmail.com
+•  Crazyh • Huckle#4707 • crazyh.dev@gmail.com
 
-- Project Link: [https://github.com/cph101/blooket-hacks](https://github.com/cph101/blooket_hacks)
+•  Project Link: [https://github.com/cph101/blooket-hacks](https://github.com/cph101/blooket_hacks)
 
 <!-- LICENSE -->
 ## License
