@@ -1,6 +1,6 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<img src="images/head.png" width="100%" height="40%" />
+<img src="images/head.png" width="100%" height="20%" />
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
