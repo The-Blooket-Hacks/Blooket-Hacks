@@ -27,7 +27,7 @@
     <a href="https://discord.gg/Td44dJqqcT">Join the support Discod</a>
   </p>
 </div>
-
+<br /><br />
 
 <!-- USAGE -->
 ## Hack Usage
