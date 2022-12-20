@@ -1,9 +1,9 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug", "help wanted"]
 assignees:
-  - octocat
+  - cph101, CrazyH2
 body:
   - type: markdown
     attributes:
