@@ -5,7 +5,8 @@
 <br />
 <div align="center">
   <a href="https://github.com/cph101/Blooket-Hacks">\
-  <style>
+	  
+  \<style>
 	.image-rounded {
 		border-radius: 15px;
 		display: inline-block;
@@ -16,8 +17,8 @@
 	}
 </style>
 
-<span class="image-rounded" style="background: [url] no-repeat 0 0;">
-	    <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />\
+<span class="image-rounded" style="background: images/animated_icon.gif no-repeat 0 0;">
+	    <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
 </span>
   </a>
   
