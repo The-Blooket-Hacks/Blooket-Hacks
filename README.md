@@ -6,20 +6,7 @@
 <div align="center">
   <a href="https://github.com/cph101/Blooket-Hacks">\
 	  
-  \<style>
-	.image-rounded {
-		border-radius: 15px;
-		display: inline-block;
-	}
-	
-	img {
-		visibility: hidden;
-	}
-</style>
-
-<span class="image-rounded" style="background: images/animated_icon.gif no-repeat 0 0;">
 	    <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
-</span>
   </a>
   
 <h3 align="center">Blooket Hacks</h3>
