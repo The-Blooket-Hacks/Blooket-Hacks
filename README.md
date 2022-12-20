@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/cph101/Blooket-Hacks">
+  <a href="https://github.com/Blooket-Cheats/Blooket-Hacks">
 	 <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
   </a>
   
@@ -46,7 +46,7 @@
 
 •  Crazyh • Huckle\#4707 • crazyh.dev@gmail.com
 
-•  Project Link: [https://github.com/blooket-cheats/blooket-hacks](https://github.com/blooket-cheats/blooket_hacks)
+•  Project Link: [https://github.com/Blooket-Cheats/Blooket-Hacks](https://github.com/Blooket-Cheats/Blooket-Hacks)
 
 <!-- LICENSE -->
 ## License
