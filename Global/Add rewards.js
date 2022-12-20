@@ -27,7 +27,7 @@ if (0 == document.location.pathname.indexOf("/play")) {
   if (obj.tokensAvailable === undefined) {
     obj.tokensAvailable = 0
   }
-  alert("Tokens Remaining: " + obj.tokensAvailable + "\nXp Remaining: " + obj.xpAvailable + "\nMade By VirescentOverlord")
+  alert("Tokens Remaining: " + obj.tokensAvailable + "\nXp Remaining: " + obj.xpAvailable + "")
 } else {
   let n = document.createElement('iframe');
   document.body.append(n);
