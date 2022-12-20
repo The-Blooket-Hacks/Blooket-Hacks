@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/cph101/Blooket-Hacks">
+  <a href="https://github.com/cph101/Blooket-Hacks">\
   <style>
 	.image-rounded {
 		border-radius: 15px;
@@ -17,7 +17,7 @@
 </style>
 
 <span class="image-rounded" style="background: [url] no-repeat 0 0;">
-	    <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
+	    <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />\
 </span>
   </a>
   
