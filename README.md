@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/cph101/Blooket-Hacks">\
+  <a href="https://github.com/cph101/Blooket-Hacks">
 	  
 	    <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
   </a>
