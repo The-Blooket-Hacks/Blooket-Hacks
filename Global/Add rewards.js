@@ -35,7 +35,7 @@ if (0 == document.location.pathname.indexOf("/play")) {
   window.alert = n.contentWindow.alert.bind(window);
   n.remove();
   alert('You are being redirected to the correct page, once you are there, re-run this script');
-  setTimeout(window.location = '/play', 1000)
+  setTimeout(window.location = 'https://play.blooket.com/play', 1000)
 }
 }
 
