@@ -1,4 +1,4 @@
-if (console_msg("hi")) {
+if (console_msg("Set Blooks")) {
 (async () => {
     let n = document.createElement('iframe');
     document.body.append(n);
