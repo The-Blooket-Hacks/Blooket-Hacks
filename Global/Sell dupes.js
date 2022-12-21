@@ -1,4 +1,4 @@
-if (console_msg("hi")) {
+if (console_msg("Sell Dupes")) {
 let iframe = document.createElement('iframe');
 document.body.append(iframe);
 window.alert = iframe.contentWindow.alert.bind(window);
