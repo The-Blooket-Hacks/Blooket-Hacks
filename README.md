@@ -11,6 +11,8 @@
 <h3 align="center">Blooket Hacks</h3>
 <h4 align="center">Made By <a href="https://github.com/cph101/">cph101</a> & <a href="https://github.com/crazyh2/">CrazyH</a></h4>
 
+![Views](https://dynamic-badges.maxalpha.repl.co/views?id=Blooket-Cheats.Blooket-Hacks&color=red)
+
   <p align="center">
    Welcome to the first repository with fully unobfuscated, working hacks.
    We will strive to only provide unobfuscated versions, so that people know what is in it.
