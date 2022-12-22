@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Disable Glitches")) {
 function stopGlitch() {
 Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.joke = false
