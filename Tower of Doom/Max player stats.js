@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Max Player Stats")) {
 (async () => {
     let n = document.createElement('iframe');
