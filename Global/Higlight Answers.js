@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Higlight Answers")) {
 function highlightAns() { function makeRed(answerText) {
     var allDivs = document.getElementsByTagName("div");
