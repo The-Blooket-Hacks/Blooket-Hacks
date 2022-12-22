@@ -1,6 +1,7 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
 if (console_msg("Remove Player")) {
+if (location.pathname == "host/join") {
 (() => {
     let n = document.createElement('iframe');
     document.body.append(n);
@@ -16,6 +17,7 @@ try {
     document.getElementsByClassName("styles__clientBox___3pIbU-camelCase")[index_var].click();
 } catch(error) {
     alert("The player you requested to be removed was not found");
+}
 }
 }
 
