@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Sell Dupes")) {
 let iframe = document.createElement('iframe');
 document.body.append(iframe);
