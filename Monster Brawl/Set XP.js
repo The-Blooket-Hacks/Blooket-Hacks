@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Set Xp")) {
 var obj = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state;
 let a = document.createElement("iframe");
