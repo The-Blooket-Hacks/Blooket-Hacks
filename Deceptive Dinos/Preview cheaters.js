@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Preview Cheaters")) {
 function checkPlayer(player) {
     var players = document.getElementsByTagName("div");
