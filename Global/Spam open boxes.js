@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 let i = document.createElement('iframe');
 document.body.append(i);
 window.alert = i.contentWindow.alert.bind(window);
