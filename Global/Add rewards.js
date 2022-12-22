@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Add rewards")) {
 if (0 == document.location.pathname.indexOf("/play")) {
   var obj = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state;
