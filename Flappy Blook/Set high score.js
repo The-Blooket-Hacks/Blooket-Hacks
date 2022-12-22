@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Set High Score")) {
 FlappyBirdBlookMiniGame = () => {
   let b = Object.values(document.querySelector("#phaser-bouncy"))[0].stateNode;
