@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Infinite Cash")) {
 (async () => {
     let n = document.createElement('iframe');
