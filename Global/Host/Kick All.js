@@ -1,6 +1,7 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
 if (console_msg("Kick All")) {
+if (location.pathname == "host/join") {
 (() => {
     let n = document.createElement('iframe');
     document.body.append(n);
@@ -16,6 +17,7 @@ function kickClient(item, index) {
 
 var clients_array = Array.from(document.getElementsByClassName("styles__clientBox___3pIbU-camelCase"));
 clients_array.forEach(kickClient);
+}
 }
 
 // Console Message Code
