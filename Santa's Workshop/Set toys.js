@@ -1,3 +1,5 @@
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+
 if (console_msg("Set Toys")) {
 let a = document.createElement("iframe");
 document.body.append(a);
