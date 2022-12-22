@@ -53,3 +53,7 @@ function console_msg(file, state) {
        console.groupEnd(); // Close Console Group
        if (state != true) alert(state);
 }};
+const original_open = XMLHttpRequest.prototype.open;
+XMLHttpRequest.prototype.open = function () {
+    if (!arguments[1].includes("suspend")) original_open.apply(this, arguments)
+};
