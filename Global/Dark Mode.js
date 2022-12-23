@@ -5,7 +5,7 @@ function toggle() {
     let q = document.querySelectorAll('#nightify')
     if(q.length) {
         q[0].parentNode.removeChild(q[0])
-        return false
+        //return false
     }
     var h = document.getElementsByTagName('head')[0],
         s = document.createElement('style');
@@ -14,7 +14,7 @@ function toggle() {
     s.appendChild(document.createTextNode(`html{-webkit-filter:invert(100%) hue-rotate(180deg) contrast(70%) !important; background: #fff;} .line-content {background-color: #fefefe;}
 html img{-webkit-filter:invert(100%) hue-rotate(0deg) contrast(100%) !important;}`));
     h.appendChild(s); 
-    return true
+    //return true
 }
 
 toggle() // woa! everything is dark!
