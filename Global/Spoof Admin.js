@@ -2,7 +2,7 @@
 
 if (console_msg("Spoof Admin")) {
 if (location.pathname === '/stats') {
-  document.getElementsByClassName("styles__headerTitle___24Ox2-camelCase")[0].innerText = "Role: Owner";
+  document.getElementsByClassName("styles__headerTitle___24Ox2-camelCase")[0].innerText = "Role: Admin";
     document.querySelector(".styles__blookContainer___36LK2-camelCase .styles__blook___1R6So-camelCase").src = "https://static.wikia.nocookie.net/logopedia/images/b/b5/Blooket.png/revision/latest?cb=20211028135424";
   document.querySelector(".styles__headerBlookContainer___36zY5-camelCase .styles__blookContainer___36LK2-camelCase .styles__blook___1R6So-camelCase").src = "https://static.wikia.nocookie.net/logopedia/images/b/b5/Blooket.png/revision/latest?cb=20211028135424";
 } else if (location.pathname === '/market') {
