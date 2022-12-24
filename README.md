@@ -11,10 +11,9 @@
 <h3 align="center">Blooket Hacks</h3>
 <h4 align="center">Made By <a href="https://github.com/cph101/">cph101</a> & <a href="https://github.com/crazyh2/">CrazyH</a></h4>
 	
-
-![Profile Views](https://komarev.com/ghpvc/?username=Blooket-Cheats&label=Profile%20Visitors&color=001eff&style=flat)
+![Repo Views](https://komarev.com/ghpvc/?username=Blooket-Cheats-Blooket-Hacks&color=red&style=flat&label=Repo+views)
 ![Known Errors](https://img.shields.io/endpoint?url=https%3A%2F%2Fblooket-hacks-7b911-default-rtdb.firebaseio.com%2FknownErrors.json)
-![Latest commit](https://img.shields.io/github/last-commit/Blooket-Cheats/Blooket-Hacks?logo=GitHub)
+![Latest Commit](https://img.shields.io/github/last-commit/Blooket-Cheats/Blooket-Hacks?logo=GitHub)
 
 
   <p align="center">
