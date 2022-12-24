@@ -15,7 +15,6 @@
 ![Known Errors](https://img.shields.io/endpoint?url=https%3A%2F%2Fblooket-hacks-7b911-default-rtdb.firebaseio.com%2FknownErrors.json)
 ![Last Commit](https://img.shields.io/github/last-commit/Blooket-Cheats/Blooket-Hacks?logo=GitHub&label=Last+Commit)
 
-
   <p align="center">
    Welcome to the first repository with fully unobfuscated, working hacks.
    We will strive to only provide unobfuscated versions, so that people know what is in it.
