@@ -24,7 +24,7 @@
     <br />
     <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/wiki">View Wiki</a>
     ·
-    <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/issues/new?assignees=cph101%2C+CrazyH2&labels=bug%2Chelp+wanted&template=bug_report.yml&title=🪲+Bug%3A+">Report Bug</a>
+    <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/issues/new?assignees=cph101%2C+CrazyH2&labels=bug%2Chelp+wanted&template=bug_report.yml&title=🪲+Bug%3A+"><img src="https://github.com/Blooket-Cheats/.github/blob/main/profile/button1.svg?raw=true"></a>
     ·
     <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/issues/new?assignees=cph101%2C+CrazyH2&labels=enhancement&template=hack_request.yml&title=🏝%EF%B8%8F+Feature+Request%3A+">Request Hack</a>
     ·
