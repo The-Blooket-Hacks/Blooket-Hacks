@@ -28,7 +28,7 @@
     ·
     <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/issues/new?assignees=cph101%2C+CrazyH2&labels=enhancement&template=hack_request.yml&title=🏝%EF%B8%8F+Feature+Request%3A+">Request Hack</a>
     ·
-    <a href="https://discord.gg/Td44dJqqcT">Join the support Discod</a>
+    <a href="https://discord.gg/Td44dJqqcT"><img height="35px" src="https://github.com/Blooket-Cheats/Blooket-Hacks/blob/main/images/supportDiscord.svg?raw=true&height=50px"></a>
   </p>
 </div>
 <br /><br />
