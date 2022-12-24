@@ -11,7 +11,9 @@
 <h3 align="center">Blooket Hacks</h3>
 <h4 align="center">Made By <a href="https://github.com/cph101/">cph101</a> & <a href="https://github.com/crazyh2/">CrazyH</a></h4>
 
-![](https://komarev.com/ghpvc/?username=Blooket-Cheats-Blooket-Hacks&color=red&style=for-the-badge&label=Repo+views)
+![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fblooket-hacks-7b911-default-rtdb.firebaseio.com%2FknownErrors.json)
+![Custom badge](https://img.shields.io/github/last-commit/Blooket-Cheats/Blooket-Hacks?logo=GitHub)
+
 
   <p align="center">
    Welcome to the first repository with fully unobfuscated, working hacks.
