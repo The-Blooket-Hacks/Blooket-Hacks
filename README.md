@@ -13,7 +13,7 @@
 	
 ![Repo Views](https://komarev.com/ghpvc/?username=Blooket-Cheats-Blooket-Hacks&color=red&style=flat&label=Repo+views)
 ![Known Errors](https://img.shields.io/endpoint?url=https%3A%2F%2Fblooket-hacks-7b911-default-rtdb.firebaseio.com%2FknownErrors.json)
-![Latest Commit](https://img.shields.io/github/last-commit/Blooket-Cheats/Blooket-Hacks?logo=GitHub)
+![Last Commit](https://img.shields.io/github/last-commit/Blooket-Cheats/Blooket-Hacks?logo=GitHub&label=Last+Commit)
 
 
   <p align="center">
