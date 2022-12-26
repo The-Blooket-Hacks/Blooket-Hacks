@@ -41,7 +41,7 @@
 - Click enter and then click the X in the top corner of the console
 
 <!-- CONTACT -->
-## Contact
+## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
 
 •  cph101 • cph101\#<span>&#x30;&#x30;&#x30;</span>1 • cph101@icloud.com</span>
 
@@ -50,12 +50,12 @@
 •  Project Link: [https://github.com/Blooket-Cheats/Blooket-Hacks](https://github.com/Blooket-Cheats/Blooket-Hacks)
 
 <!-- LICENSE -->
-## License
+## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1022522686603276350"> ‎ ‎ License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1012520645915062292"> ‎ ‎ Acknowledgments
 
 * We are NOT responsible for any actions taken on your account for using these hacks.
 * We are in no way affiliated with Blooket in any way, shape or form.
