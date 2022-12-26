@@ -43,14 +43,14 @@
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
 
-•   <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ cph101 • cph101\#<span>&#x30;&#x30;&#x30;</span>1 • cph101@icloud.com</span>
+•   <img width="15" src="https://i.ibb.co/XkWwv7D/A63558-E9-8-A93-42-F8-BF87-BA05-D2-EBD817.png"> ‎ ‎ cph101 • cph101\#<span>&#x30;&#x30;&#x30;</span>1 • cph101@icloud.com</span>
 
 •  Crazyh • Huckle\#4707 • crazyh.dev@gmail.com
 
 •  Project Link: [https://github.com/Blooket-Cheats/Blooket-Hacks](https://github.com/Blooket-Cheats/Blooket-Hacks)
 
 <!-- LICENSE -->
-## ‎‎ <img width="15" src="https://i.ibb.co/XkWwv7D/A63558-E9-8-A93-42-F8-BF87-BA05-D2-EBD817.png"> ‎ ‎ License
+## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
