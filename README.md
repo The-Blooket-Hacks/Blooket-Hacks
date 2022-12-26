@@ -57,9 +57,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()We are NOT responsible for any actions taken on your account for using these hacks.
-* []()We are in no way affiliated with Blooket in any way, shape or form.
-* []()This was created solely for educational purposes.
+* We are NOT responsible for any actions taken on your account for using these hacks.
+* We are in no way affiliated with Blooket in any way, shape or form.
+* This was created solely for educational purposes.
 
 <p align="right"><a href="#readme-top">(Back To Top)</a></p>
 
