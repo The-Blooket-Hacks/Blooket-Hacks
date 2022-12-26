@@ -47,7 +47,7 @@
 
 • ‎ <img width="18" src="https://i.ibb.co/nCb2NjY/3-CE6-DBB3-9-E4-A-4-DE4-8090-F8-ACCD394-AE1.png"> ‎ Crazyh • Huckle\#4707 • crazyh.dev@gmail.com
 
-•  Project Link: [https://github.com/Blooket-Cheats/Blooket-Hacks](https://github.com/Blooket-Cheats/Blooket-Hacks)
+• ‎ <img width="18" src="https://cdn.discordapp.com/emojis/1056989789691322459"> ‎ Project Link: [Click Here](https://github.com/Blooket-Cheats/Blooket-Hacks)
 
 <!-- LICENSE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ License
