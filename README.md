@@ -31,7 +31,7 @@
 <br /><br />
 
 <!-- USAGE -->
-## Hack Usage
+## <img src="https://cdn.discordapp.com/emojis/\1034440804938301447">  Hack Usage
 - Find the hack you want
 - Click the copy button
 - Go to the Blooket page
