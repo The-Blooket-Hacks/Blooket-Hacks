@@ -49,7 +49,7 @@
 • ‎ <img width="18" src="https://cdn.discordapp.com/emojis/1056989789691322459"> ‎ Project Link: [Click Here](https://github.com/Blooket-Cheats/Blooket-Hacks)
 
 <!-- LICENSE -->
-## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ License
+## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1022522686603276350"> ‎ ‎ License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
