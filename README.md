@@ -16,7 +16,7 @@
 ![Known Errors](https://img.shields.io/endpoint?url=https%3A%2F%2Fblooket-hacks-7b911-default-rtdb.firebaseio.com%2FknownErrors.json&logoColor=red)
 ![Last Commit](https://img.shields.io/github/last-commit/Blooket-Cheats/Blooket-Hacks?logo=GitHub&color=red&label=Last+Commit&logoColor=red)
 ![License](https://img.shields.io/github/license/blooket-cheats/blooket-hacks?color=red&label=License&logo=LibreOffice&logoColor=red)
-![GitHub Repo stars](https://img.shields.io/github/stars/blooket-cheats/blooket-hacks?color=red&label=Project+Stars&logo=Apache+Spark)
+![GitHub Repo stars](https://img.shields.io/github/stars/blooket-cheats/blooket-hacks?color=red&label=Project+Stars&logo=Apache+Spark&logoColor=red)
 	
 </span>
 
