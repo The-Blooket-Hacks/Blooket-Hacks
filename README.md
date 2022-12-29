@@ -12,7 +12,7 @@
 
 <span id="badges-container">
 	
-![Repo Views](https://komarev.com/ghpvc/?username=Blooket-Cheats-Blooket-Hacks&color=red&style=flat&label=Repo+views&logo=github&logoColor=red)
+![Repo Views](https://komarev.com/ghpvc/?username=Blooket-Cheats-Blooket-Hacks&color=red&style=flat&label=Repo+views&logo=GitHub&logoColor=red)
 ![Known Errors](https://img.shields.io/endpoint?url=https%3A%2F%2Fblooket-hacks-7b911-default-rtdb.firebaseio.com%2FknownErrors.json&logoColor=red)
 ![Last Commit](https://img.shields.io/github/last-commit/Blooket-Cheats/Blooket-Hacks?logo=cachet&color=red&label=Last+Commit&logoColor=red)
 ![License](https://img.shields.io/github/license/blooket-cheats/blooket-hacks?color=red&label=License&logo=C&logoColor=red)
