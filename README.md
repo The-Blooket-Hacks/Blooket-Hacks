@@ -52,6 +52,8 @@
 
 • ‎ <img width="18" src="https://cdn.discordapp.com/emojis/1056989789691322459"> ‎ Project Link: [Click Here](https://github.com/Blooket-Cheats/Blooket-Hacks)
 
+• ‎ <img width="18" src="https://cdn.discordapp.com/emojis/1032768182341091338.png"> ‎ Website Link: [Click Here](https://blooket-hacks.crazyh.repl.co)
+
 <!-- LICENSE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1022522686603276350"> ‎ ‎ License
 
