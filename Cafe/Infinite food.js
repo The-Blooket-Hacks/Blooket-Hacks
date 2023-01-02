@@ -15,7 +15,7 @@ if (console_msg("Infinite Food")) {
             if (document.location.pathname != "/cafe") {
                 alert("You must be in a cafe game!");
             } else {
-                reactHandler().stateNode.state.foods.forEach(e => e.stock = 99999);
+                reactHandler().stateNode.state.foods.forEach(e => e.stock = 1000000000000000000e100000000);
                 reactHandler().stateNode.forceUpdate();
 
                 alert('Added infinite food level!');
