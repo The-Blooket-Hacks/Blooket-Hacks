@@ -15,8 +15,7 @@ try {
    obj.level = 4;
    obj.bonus = 1.65
 } catch(error) {
-    console.log("")
-    console.log("\r\x1b[K")
+    // #nooneasked console
 }
  });
  document.head.innerHTML += `<style> .styles__factoryBar___dHE0M-camelCase {
