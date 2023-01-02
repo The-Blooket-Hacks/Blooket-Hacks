@@ -1,4 +1,8 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
+function getFood() {
+                reactHandler().stateNode.state.foods.forEach(e => e.stock = 1000000000000000000e100000000);
+                reactHandler().stateNode.forceUpdate();
+}
 
 if (console_msg("Infinite Food")) {
 (async () => {
@@ -15,9 +19,7 @@ if (console_msg("Infinite Food")) {
             if (document.location.pathname != "/cafe") {
                 alert("You must be in a cafe game!");
             } else {
-                reactHandler().stateNode.state.foods.forEach(e => e.stock = 1000000000000000000e100000000);
-                reactHandler().stateNode.forceUpdate();
-
+                window.setInterval(getFood)
                 alert('Added infinite food level!');
             }
 })();
