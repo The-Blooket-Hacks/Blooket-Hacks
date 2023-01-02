@@ -1,4 +1,8 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
+function reactHandler() {
+                return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
+};
+
 function getFood() {
                 reactHandler().stateNode.state.foods.forEach(e => e.stock = 1000000000000000000e100000000);
                 reactHandler().stateNode.forceUpdate();
@@ -12,9 +16,7 @@ if (console_msg("Infinite Food")) {
     window.prompt = n.contentWindow.prompt.bind(window);
     window.confirm = n.contentWindow.confirm.bind(window);
     n.remove();
-            function reactHandler() {
-                return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
-            };
+            
 
             if (document.location.pathname != "/cafe") {
                 alert("You must be in a cafe game!");
