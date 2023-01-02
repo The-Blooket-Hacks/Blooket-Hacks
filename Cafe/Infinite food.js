@@ -15,7 +15,7 @@ if (console_msg("Infinite Food")) {
             if (document.location.pathname != "/cafe") {
                 alert("You must be in a cafe game!");
             } else {
-                document.body.innerHTML += `<style> .styles__foodStock___19LOm-camelCase { width: 10vh !important; } </style>`
+                document.head.innerHTML += `<style> .styles__foodStock___19LOm-camelCase { width: 10vh !important; } </style>`
                 window.setInterval(function(){
                 reactHandler().stateNode.state.foods.forEach(e => e.stock = 1000000000000000000e100000000);
                 reactHandler().stateNode.forceUpdate();
