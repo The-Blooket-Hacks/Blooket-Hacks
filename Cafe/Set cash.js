@@ -12,9 +12,7 @@ if (console_msg("Set Cash")) {
                 return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
             };
 
-            if (document.location.pathname != "/cafe") {
-                alert("You must be in a cafe game!");
-            } else {
+            if (document.location.pathname != "/cafe" || "/cafe/shop") {
                 reactHandler().stateNode.setState({ cafeCash: Number(parseFloat(prompt('How much cash would you like?'))) });
 
 
