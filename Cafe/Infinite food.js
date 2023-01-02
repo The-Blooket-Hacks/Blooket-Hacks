@@ -1,10 +1,5 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
-function getFood() {
-                Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.state.foods.forEach(e => e.stock = 1000000000000000000e100000000);
-                Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.forceUpdate();
-}
-
 if (console_msg("Infinite Food")) {
 (async () => {
     let n = document.createElement('iframe');
@@ -13,13 +8,19 @@ if (console_msg("Infinite Food")) {
     window.prompt = n.contentWindow.prompt.bind(window);
     window.confirm = n.contentWindow.confirm.bind(window);
     n.remove();
-            
+            function reactHandler() {
+                return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
+            };
 
             if (document.location.pathname != "/cafe") {
                 alert("You must be in a cafe game!");
             } else {
                 document.body.innerHTML += `<style> .styles__foodStock___19LOm-camelCase { width: 10vh !important; } </style>`
-                window.setInterval(getFood)
+                window.setInterval(function(){
+                reactHandler().stateNode.state.foods.forEach(e => e.stock = 1000000000000000000e100000000);
+                reactHandler().stateNode.forceUpdate();
+                })   
+
                 alert('Added infinite food level!');
             }
 })();
