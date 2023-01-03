@@ -9,10 +9,9 @@ document.getElementsByClassName("styles__topFolderButton___1_bXd-camelCase")[0].
 	stateNode.setState({ creatingFolder: true });
 })();
   });
-(() => {
-	var stateNode = Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode;
-	stateNode.setState({ plus: true });
-})();
+Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.plus = true
+Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.state.user.hasPlus = true
+Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.forceUpdate()
 }
 
 // Console Message Code
