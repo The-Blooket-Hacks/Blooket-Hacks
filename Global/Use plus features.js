@@ -1,8 +1,16 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
 if (console_msg("Use Plus Features")) {
+var old_element = document.getElementsByClassName("styles__topFolderButton___1_bXd-camelCase")[0];
+var new_element = old_element.cloneNode(true);
+old_element.parentNode.replaceChild(new_element, old_element);
+document.getElementsByClassName("styles__topFolderButton___1_bXd-camelCase")[0].addEventListener("click", function(){ (() => {
+	var stateNode = Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode;
+	stateNode.setState({ creatingFolder: true });
+})();
+  });
 (() => {
-	const stateNode = Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode;
+	var stateNode = Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode;
 	stateNode.setState({ plus: true });
 })();
 }
