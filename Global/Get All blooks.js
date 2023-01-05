@@ -18,7 +18,7 @@ stateNode.setState({ blookData: allBlooks });
 			}
 		}
 	}
-}
+    }
 
 function findByProp(find) {
 	return Object.values(webpackJsonp.push([
@@ -41,6 +41,9 @@ function findByProp(find) {
 }
 getStateNode().state.unlocks = Object.keys(findByProp("UFO"));
 getStateNode().forceUpdate();
+window.setInterval(function(){
+    Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.takenBlooks = []
+})
 }
 }
 
