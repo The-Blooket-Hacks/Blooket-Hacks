@@ -1,9 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Create bookmarklets
-
-- name: FileToBase64
-  uses: frostebite/File-To-Base64@1.0
-
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -26,9 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: frostebite/File-To-Base64@master
-    id: base64Config
-    with:
-      - filePath: ~/.kube/config
-    - uses: frostebite/kubernetes-download-pv@master
-    with:
-    kubernetesBase64Config: ${{ steps.base64Config.outputs.base64 }}
+        id: base64Config
+        with:
+          - filePath: ~/.kube/config
+      - uses: frostebite/kubernetes-download-pv@master
+        with:
+          kubernetesBase64Config: ${{ steps.base64Config.outputs.base64 }}
