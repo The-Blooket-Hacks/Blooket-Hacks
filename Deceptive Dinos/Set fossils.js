@@ -1,5 +1,5 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
-
+sdsd
 if (console_msg("Set Fossils")) {
 (async () => {
     let n = document.createElement('iframe');
