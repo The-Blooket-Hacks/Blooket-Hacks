@@ -35,7 +35,7 @@
 </div>
 <br /><br />
 
-## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1061737306534449233"> ‎ ‎ Console mode
+## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1061737306534449233"> ‎ ‎ Console mode - [Switch to Bookmarklet mode](https://github.com/Blooket-Cheats/Blooket-Hacks/tree/bookmarklets)
 <!-- USAGE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ Hack Usage
 - Find the hack you want
