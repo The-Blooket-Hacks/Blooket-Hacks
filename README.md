@@ -40,11 +40,13 @@
 #### ‎‎ <img width="15" src="https://cdn.discordapp.com/emojis/1061744882496065566"> ‎ ‎ Bookmarklet mode - [Switch to Console mode](https://github.com/Blooket-Cheats/Blooket-Hacks)
 - Find the hack you want
 - Click the copy button
-- Go to the Blooket page
-- Right click and click inspect
-- Click console and top of the page
-- Paste the code in at the bottom of the page in the console box
-- Click enter and then click the X in the top corner of the console
+- Add a new bookmark
+- Go to your bookmarks
+- Find the one you just added
+- Press right click (tap and hold on mobile) and then "Edit"
+- Paste or press `CTRL+V` in the url box
+- Click "Done"
+- Open the bookmark[let]
 
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
