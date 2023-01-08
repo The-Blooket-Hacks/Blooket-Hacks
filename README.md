@@ -34,6 +34,7 @@
   </p>
 </div>
 <br /><br />
+
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1061737306534449233"> ‎ ‎ Console mode
 <!-- USAGE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ Hack Usage
