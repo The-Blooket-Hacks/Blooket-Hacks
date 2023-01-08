@@ -39,7 +39,7 @@ body:
       label: What browsers are you seeing the problem on?
       multiple: true
       options:
-        - Chromium based, i.e. Chrome, Arc
+        - Chromium based
         - Safari
         - Opera / (GX)
         - Firefox
