@@ -7,7 +7,7 @@
 	 <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
   </a>
   
-<h3 align="center">Blooket Hacks</h3>
+<h3 align="center">Blooket Hacks (Console Version)</h3>
 <h4 align="center">Made By <a href="https://github.com/cph101/">cph101</a> & <a href="https://github.com/crazyh2/">CrazyH</a></h4>
 
 <span id="badges-container">
