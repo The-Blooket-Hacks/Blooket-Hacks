@@ -1,6 +1,6 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
-if (console_msg("All Blooks")) {
+if (console_msg("Get All Blooks")) {
 if (window.location.pathname == "/blooks") {
     const ALL_BLOOKS = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find(x=>x.exports?.a?.toString().includes('"Rainbow Astronaut":')).exports.a.toString().split('"').filter((x, i) => i % 2 !== 0).filter(x=>!["Common", "Uncommon", "Rare", "Epic", "Legendary", "Chroma", "Mystical"].includes(x));
 const allBlooks = ALL_BLOOKS.reduce((a,b)=> (a[b]=1,a),{});
