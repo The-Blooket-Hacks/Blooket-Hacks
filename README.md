@@ -1,4 +1,6 @@
 <a name="readme-top"></a>
+<!-- ANALYTICS -->
+<img src="shorturl.at/lmO28" />
 <img src="images/head.png" width="100%" height="20%" />
 <!-- PROJECT LOGO -->
 <br />
@@ -72,5 +74,3 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right"><a href="#readme-top">(Back To Top)</a></p>
 
 <img src="images/foot.png" width="100%" height="40%" />
-<!-- ANALYTICS -->
-<img src="shorturl.at/lmO28" width="0px" height="0px" />
