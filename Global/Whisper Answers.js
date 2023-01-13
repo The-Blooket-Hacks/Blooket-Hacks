@@ -2,14 +2,10 @@
 
 if (console_msg("Whisper Answers")) {
 function whisperAnswer() {
-if(document.getElementsByClassName("styles__questionContainer___6eJ0Y-camelCase")[0]) {
 var correctAns = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.correctAnswers[0];
 var ansArray = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.answers;
 var ansIndex = ansArray.indexOf(correctAns);
-document.getElementsByClassName("styles__playerEnergy___G4cGN-camelCase")[0].innerHTML = ansIndex+1;
-} else {
-document.getElementsByClassName("styles__playerEnergy___G4cGN-camelCase")[0].innerHTML = 0;
-}};
+document.getElementsByClassName("styles__playerEnergy___G4cGN-camelCase")[0].innerHTML = ansIndex+1;};
 
 (() => {
     let n = document.createElement('iframe');
