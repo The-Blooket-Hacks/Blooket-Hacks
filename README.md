@@ -48,6 +48,10 @@
 - Paste the code in at the bottom of the page in the console box
 - Click enter and then click the X in the top corner of the console
 
+## Contributors
+
+<img height="20" src="https://github.com/Blooket-Cheats/Blooket-Hacks/raw/main/images/contributer1.svg" />
+
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
 
