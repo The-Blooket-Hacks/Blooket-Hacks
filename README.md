@@ -51,6 +51,7 @@
 ## Contributors
 
 <img height="20" src="https://github.com/Blooket-Cheats/Blooket-Hacks/raw/main/images/contributor1.svg" />
+<img height="20" src="https://github.com/Blooket-Cheats/Blooket-Hacks/raw/main/images/contributor2.svg" />
 
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
