@@ -27,7 +27,7 @@ setInterval(function(){var obj = Object.values(document.querySelector("#app > di
 // Console Message Code
 function console_msg(file, state) {
    if (!state) {
-       if (window.location.host === "play.blooket.com" || window.location.host === "dashboard.blooket.com") {
+       if (window.location.href.indexOf("blooket.com") > -1 && window.location.host !== "www.blooket.com" && window.location.host !== "id.blooket.com") {
            console_msg(file, true);
            return true;
        } else if (window.location.host === "www.blooket.com" || window.location.host === "id.blooket.com") {
