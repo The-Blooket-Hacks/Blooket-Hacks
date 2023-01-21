@@ -9,7 +9,7 @@ Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.
 // Console Message Code
 function console_msg(file, state) {
    if (!state) {
-       if (window.location.host === "play.blooket.com" || window.location.host === "dashboard.blooket.com") {
+       if (window.location.host.contains("blooket.com")) {
            console_msg(file, true);
            return true;
        } else if (window.location.host === "www.blooket.com" || window.location.host === "id.blooket.com") {
