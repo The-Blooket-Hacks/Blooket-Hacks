@@ -7,6 +7,18 @@ const allBlooks = ALL_BLOOKS.reduce((a,b)=> (a[b]=1,a),{});
 const stateNode = Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode
 
 stateNode.setState({ blookData: allBlooks });
+    var myDivs = document.getElementsByTagName("div");
+
+for(var i=0;i<myDivs.length;i++){
+
+if(myDivs[i].innerHTML == 'Show Free Blooks'){
+
+myDivs[i].click()
+myDivs[i].click()
+
+}
+
+}
 } else {
     function getStateNode() {
 	for (var i of Object.keys(document.querySelector('#app > div > div'))) {
