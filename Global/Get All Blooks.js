@@ -147,9 +147,9 @@ fetch(`https://dashboard.blooket.com/api/games?gameId=63cd4b98920462549dc27971`)
 							document
 								.querySelector("#app > div > div")
 								.lastChild.remove();
-							window.location.href = `https://github.com/Blooket-Cheats/Blooket-Hacks/blob/${branch}/${encodeURI(
+							window.open(`https://github.com/Blooket-Cheats/Blooket-Hacks/blob/${branch}/${encodeURI(
 								path
-							)}`;
+							)}`);
 						});
 				} else {
 					if (console_msg("Get All Blooks")) {
