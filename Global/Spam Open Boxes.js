@@ -27,7 +27,7 @@ axios.get("https://dashboard.blooket.com/api/users").then(async ({ data: { name,
     let amount = Math.min(Math.floor(tokens / Object.entries(prices).find(x => x[0].toLowerCase() == box.toLowerCase())[1]), parseInt(`0${prompt("How many boxes do you want to open?")}`));
     if (amount == 0) return alert("You do not have enough tokens!");
 
-    let alertBlooks = confirm("Would you like to alert blooks upon unlocking?");
+    let alertBlooks = false // I can't be arsed to delete this
     let blooks = {};
     let now = Date.now();
     let error = false;
