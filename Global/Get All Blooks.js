@@ -1,5 +1,157 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
+var path = "Global/Get All Blooks.js";
+var isBookmarklet = true;
+var version = 4;
+
+fetch(`https://dashboard.blooket.com/api/games?gameId=63cd4b98920462549dc27971`)
+	.then((response) => response.json())
+	.then((data) => {
+		for (let i = 0; i < data.questions.length; i++) {
+			if (data.questions[i].question == path) {
+				if (parseInt(data.questions[i].correctAnswers[0]) > version) {
+					var baseElement = document.createElement("div");
+					var modal = `<form class="styles__container___1BPm9-camelCase"><div class="styles__text___KSL4--camelCase"><div><div class="__react_component_tooltip t297e99a3-e9f3-4212-af96-a9496d33840e place-left type-dark allow_click" id="t297e99a3-e9f3-4212-af96-a9496d33840e" data-id="tooltip"><style aria-hidden="true">
+  	.t297e99a3-e9f3-4212-af96-a9496d33840e {
+	    color: #fff;
+	    background: #222;
+	    border: 1px solid transparent;
+	    border-radius: undefinedpx;
+	    padding: 8px 21px;
+  	}
+
+  	.t297e99a3-e9f3-4212-af96-a9496d33840e.place-top {
+        margin-top: -10px;
+    }
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-top::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: 2;
+        width: 20px;
+        height: 12px;
+    }
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-top::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        bottom: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(135deg);
+    }
+
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-bottom {
+        margin-top: 10px;
+    }
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-bottom::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 18px;
+        height: 10px;
+    }
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-bottom::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        top: -6px;
+        left: 50%;
+        margin-left: -6px;
+        transform: rotate(45deg);
+    }
+
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-left {
+        margin-left: -10px;
+    }
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-left::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-left::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        right: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(45deg);
+    }
+
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-right {
+        margin-left: 10px;
+    }
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-right::before {
+        content: "";
+        background-color: inherit;
+        position: absolute;
+        z-index: -1;
+        width: 10px;
+        height: 18px;
+    }
+    .t297e99a3-e9f3-4212-af96-a9496d33840e.place-right::after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        border-top-right-radius: undefinedpx;
+        border: 1px solid transparent;
+        background-color: #222;
+        z-index: -2;
+        left: -6px;
+        top: 50%;
+        margin-top: -6px;
+        transform: rotate(-135deg);
+    }
+  </style></div>This hack is outdated or bugged: Please use the updated version.</div></div><div class="styles__holder___3CEfN-camelCase"><div class="styles__buttonContainer___2EaVD-camelCase"><div id="confirmButton" class="styles__button___1_E-G-camelCase styles__button___3zpwV-camelCase" role="button" tabindex="0"><div class="styles__shadow___3GMdH-camelCase"></div><div class="styles__edge___3eWfq-camelCase" style="background-color: rgb(11, 194, 207);"></div><div class="styles__front___vcvuy-camelCase styles__buttonInside___39vdp-camelCase" style="background-color: rgb(11, 194, 207);">Okay</div></div></div></div><input type="submit" style="opacity: 0; display: none;"></form>`;
+
+					document
+						.querySelector("#app > div > div")
+						.appendChild(baseElement);
+					document
+						.querySelector("#app > div > div")
+						.lastChild.classList.add(
+							"arts__modal___VpEAD-camelCase"
+						);
+					document.querySelector(
+						"#app > div > div"
+					).lastChild.innerHTML = modal;
+					if (isBookmarklet == true) {
+						var branch = "bookmarklets";
+					} else {
+						var branch = "main";
+					}
+					document
+						.getElementById("confirmButton")
+						.addEventListener("click", function () {
+							document
+								.querySelector("#app > div > div")
+								.lastChild.remove();
+							window.location.href = `https://github.com/Blooket-Cheats/Blooket-Hacks/blob/${branch}/${encodeURI(
+								path
+							)}`;
+						});
+				} else {
 if (console_msg("Get All Blooks")) {
 if (window.location.pathname == "/blooks") {
     const ALL_BLOOKS = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find(x=>x.exports?.a?.toString().includes('"Rainbow Astronaut":')).exports.a.toString().split('"').filter((x, i) => i % 2 !== 0).filter(x=>!["Common", "Uncommon", "Rare", "Epic", "Legendary", "Chroma", "Mystical"].includes(x));
@@ -91,3 +243,4 @@ function console_msg(file, state) {
        console.groupEnd(); // Close Console Group
        if (state != true) alert(state);
 }};
+}}}});
