@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <!-- ANALYTICS -->
 <img src="https://shorturl.at/lmO28" width="0%" height="0%" />
-<img src="images/head.png" width="100%" height="20%" />
+<img src="images/E8D4735A-E295-4002-9C9C-31D95770AEED.png" width="100%" height="20%" />
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
