@@ -13,7 +13,7 @@
 <h4 align="center">Made By <a href="https://github.com/cph101/">cph101</a> & <a href="https://github.com/crazyh2/">CrazyH</a></h4>
 
   <p align="center">
-   This is EXPEREMENTAL! If you do not wish to use hacks that do not work <br>as they are supposed to, please switch to the main branch or click <a href="">here.</a>
+   This is EXPEREMENTAL! If you do not wish to use hacks that do not work <br>as they are supposed to, please switch to the main branch or click <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/">here.</a>
     <br />
     <br />
   </p>
@@ -22,7 +22,7 @@
 
 <!-- USAGE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ Hack Usage
-#### ‎‎ <img width="15" src="https://cdn.discordapp.com/emojis/1061737306534449233"> ‎ ‎ Console mode - [Switch to Bookmarklet mode](https://github.com/Blooket-Cheats/Blooket-Hacks/tree/bookmarklets)
+#### ‎‎ <img width="15" src="https://cdn.discordapp.com/emojis/1061737306534449233"> ‎ ‎ EXPERIMENTAL - [Switch to stable version](https://github.com/Blooket-Cheats/Blooket-Hacks/)
 - Find the hack you want
 - Click the copy button
 - Go to the Blooket page
