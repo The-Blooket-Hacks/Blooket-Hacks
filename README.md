@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Blooket-Cheats/Blooket-Hacks">
-	 <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
+	 <img src="images/E248401F-9CDF-4412-BA15-06655AFE90D7.gif" alt="Logo" width="200" height="200" />
   </a>
   
 <h3 align="center">Blooket Hacks (Console Mode)</h3>
