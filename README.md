@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <!-- ANALYTICS -->
 <img src="https://shorturl.at/lmO28" width="0%" height="0%" />
-<img src="images/E8D4735A-E295-4002-9C9C-31D95770AEED.png" width="100%" height="20%" />
+<img src="images/header.png" width="100%" height="20%" />
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -48,4 +48,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right"><a href="#readme-top">(Back To Top)</a></p>
 
-<img src="images/foot.png" width="100%" height="40%" />
+<img src="images/footer.png" width="100%" height="40%" />
