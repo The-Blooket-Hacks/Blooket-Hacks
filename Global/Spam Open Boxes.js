@@ -15,12 +15,12 @@ var packPrice;
 var baseElement = document.createElement("div");
 var modal = `<form class="styles__container___1BPm9-camelCase"><div class="styles__text___KSL4--camelCase">Which pack do you want to open?</div><div class="styles__holder___3CEfN-camelCase"><div class="styles__numRow___xh98F-camelCase"><div class="styles__inputContainer___2Fn7J-camelCase styles__inputFilled___3AmpF-camelCase" style="width: 220px; margin: 0px;"><input id="packName" class="styles__input___2vJSW-camelCase" placeholder="e.g. Aquatic" value="" style="width: 200px; height: 30px; transform:translate(0, 2px); text-align:center;"></div></div><div class="styles__buttonContainer___2EaVD-camelCase"><div class="styles__button___1_E-G-camelCase styles__button___3zpwV-camelCase" role="button" id="cnclBtn" tabindex="0"><div class="styles__shadow___3GMdH-camelCase"></div><div class="styles__edge___3eWfq-camelCase" style="background-color: rgb(11, 194, 207);"></div><div class="styles__front___vcvuy-camelCase styles__buttonInside___39vdp-camelCase" style="background-color: rgb(11, 194, 207);">Cancel</div></div><div class="styles__button___1_E-G-camelCase styles__button___3zpwV-camelCase" id="confirmBtn" role="button" tabindex="0"><div class="styles__shadow___3GMdH-camelCase"></div><div class="styles__edge___3eWfq-camelCase" style="background-color: rgb(11, 194, 207);"></div><div class="styles__front___vcvuy-camelCase styles__buttonInside___39vdp-camelCase" style="background-color: rgb(11, 194, 207);">Okay</div></div></div></div><input type="submit" style="opacity: 0; display: none;"></form>`;
 
-async function stepThree(amount, axios) {
+async function stepThree(amount, axios, box, name) {
 let blooks = {};
     let now = Date.now();
     let error = false;
-
-    for (let i = 0; i < amount; i++) { await axios.put("https://dashboard.blooket.com/api/users/unlockblook", { name, box }).then(({ data: { unlockedBlook, tokens, isNewBlook } }) => {
+	console.log(amount)
+    for (let i = 1; i <= amount; i++) { await axios.put("https://dashboard.blooket.com/api/users/unlockblook", { name, box }).then(({ data: { unlockedBlook, tokens, isNewBlook } }) => {
             blooks[unlockedBlook] ||= 0;
             blooks[unlockedBlook]++;
 
@@ -56,8 +56,8 @@ document.querySelector("#app > div > div").lastChild.classList.add("arts__modal_
 document.querySelector("#app > div > div").lastChild.innerHTML = modal;
 document.getElementById("cnclBtn").addEventListener("click", function(){document.querySelector(`#app > div > div`).lastChild.remove()})
 document.getElementById("confirmBtn").addEventListener("click", function(){
-	let packPrice = console.log(prices[document.getElementById("boxAmount").value]);
-	stepThree(packPrice, axios)
+	let packPrice = console.log(document.getElementById("boxAmount").value);
+	stepThree(document.getElementById("boxAmount").value, axios, pName, name)
 	})
 })}
 // Part 2
