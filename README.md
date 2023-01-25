@@ -21,7 +21,7 @@
 <br /><br />
 
 <!-- USAGE -->
-#### ‎‎ <img width="15" src="https://cdn.discordapp.com/emojis/1061737306534449233"> ‎ ‎ EXPERIMENTAL - [Switch to stable version](https://github.com/Blooket-Cheats/Blooket-Hacks/)
+#### ‎‎ 🧪 ‎ ‎ EXPERIMENTAL - [Switch to stable version](https://github.com/Blooket-Cheats/Blooket-Hacks/)
 
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
@@ -42,7 +42,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1012520645915062292"> ‎ ‎ Acknowledgments
 
-* We are NOT responsible for any actions taken on your account for using these hacks.
+* We are NOT responsible for any actions taken on your account for using these hacks. (Definitely not while using EXPERIMENTAL hacks.)
 * We are in no way affiliated with Blooket in any way, shape or form.
 * This was created solely for educational purposes.
 
