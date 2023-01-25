@@ -1,4 +1,4 @@
-// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101 
 
 if (console_msg("Spam Open Boxes")) {
 var axios = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find((x) => x.exports?.a?.get).exports.a;
