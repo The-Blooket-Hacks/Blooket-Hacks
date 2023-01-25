@@ -22,7 +22,7 @@ axios.get("/api/users").then(async ({ data: { name, unlocks } }) => {
 });
 }
 
-// Console Message Code
+// Console Message Code 
 function console_msg(file, state) {
    if (!state) {
        if (window.location.href.indexOf("blooket.com") > -1 && window.location.host !== "www.blooket.com" && window.location.host !== "id.blooket.com") {
