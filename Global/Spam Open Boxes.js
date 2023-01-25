@@ -20,8 +20,7 @@ let blooks = {};
     let now = Date.now();
     let error = false;
 
-    for (let i = 0; i < amount; i++) {
-        await axios.put("https://dashboard.blooket.com/api/users/unlockblook", { name, box }).then(({ data: { unlockedBlook, tokens, isNewBlook } }) => {
+    for (let i = 0; i < amount; i++) { axios.put("https://dashboard.blooket.com/api/users/unlockblook", { name, box }).then(({ data: { unlockedBlook, tokens, isNewBlook } }) => {
             blooks[unlockedBlook] ||= 0;
             blooks[unlockedBlook]++;
 
