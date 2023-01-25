@@ -13,7 +13,7 @@
 <h4 align="center">Made By <a href="https://github.com/cph101/">cph101</a> & <a href="https://github.com/crazyh2/">CrazyH</a></h4>
 
   <p align="center">
-   This is EXPEREMENTAL! If you do not wish to use hacks that do not work <br>as they are supposed to, please switch to the main branch or click <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/">here.</a>
+   This is EXPERIMENTAL! If you do not wish to use hacks that do not work <br>as they are supposed to, please switch to the main branch or click <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/">here.</a>
     <br />
     <br />
   </p>
