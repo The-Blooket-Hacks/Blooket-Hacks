@@ -17,16 +17,18 @@ var modal = `<form class="styles__container___1BPm9-camelCase"><div class="style
 
 async function stepThree(amount, axios, box, name) {
 let blooks = {};
-    let now = Date.now();
     let error = false;
 	console.log(amount)
-	var modal = `<div class="arts__modal___VpEAD-camelCase"><style>.wrapper {width: 80%;float: center;margin-left: auto;margin-right: auto;padding-top: 12.5px;}.progress-bar {width: 100%;background-color: rgba(0,0,0,0.2);padding: 0px;border-radius: 3px;}.progress-bar-fill {display: block;height: 22px;background-color: rgb(11, 194, 207);border-radius: 3px;transition: width 600ms ease-in-out;}</style> <form class="styles__container___1BPm9-camelCase"><div id="progressText" class="styles__text___KSL4--camelCase">Opening 0/${amount} packs…</div><div class="styles__container___3qYKT-camelCase"><div class="wrapper"><div class="progress-bar"><span id="progressInner" class="progress-bar-fill" style="width: 0%;"></span></div></div></div><input type="submit" style="opacity: 0; display: none;"></form></div>`;
+	var modal = `<div class="arts__modal___VpEAD-camelCase"><style>.wrapper {width: 80%;float: center;margin-left: auto;margin-right: auto;padding-top: 12.5px;}.progress-bar {width: 100%;background-color: rgba(0,0,0,0.2);padding: 0px;border-radius: 3px;}.progress-bar-fill {display: block;height: 22px;background-color: rgb(11, 194, 207);border-radius: 3px;}</style><style id="smoothTrans">.progress-bar-fill { transition: width 100ms ease-in-out; }</style> <form class="styles__container___1BPm9-camelCase"><div id="progressText" class="styles__text___KSL4--camelCase">Opening 0/${amount} packs…</div><div class="styles__container___3qYKT-camelCase"><div class="wrapper"><div class="progress-bar"><span id="progressInner" class="progress-bar-fill" style="width: 0%;"></span></div></div></div><input type="submit" style="opacity: 0; display: none;"></form></div>`;
 			document.querySelector("#app > div > div").lastChild.innerHTML = modal;
-    for (let i = 1; i <= amount; i++) { await axios.put("https://dashboard.blooket.com/api/users/unlockblook", { name, box }).then(({ data: { unlockedBlook, tokens, isNewBlook } }) => {
+    for (let i = 1; i <= amount; i++) { 
+	    let before = Date.now();
+	    await axios.put("https://dashboard.blooket.com/api/users/unlockblook", { name, box }).then(({ data: { unlockedBlook, tokens, isNewBlook } }) => {
 		document.getElementById("progressInner").style = `width: ${(i/amount)*100}%`;
 		document.getElementById("progressText").innerHTML = `Opening ${i}/${amount} packs…`;
             blooks[unlockedBlook] ||= 0;
             blooks[unlockedBlook]++;
+		document.getElementById("smoothTrans").innerHTML = `.progress-bar-fill { transition: width ${Date.now() - before}ms ease-in-out; }`;
         }).catch(e => error = true);
         if (error) break;
     }
