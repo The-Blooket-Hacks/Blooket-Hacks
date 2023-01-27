@@ -15,7 +15,6 @@
   <p align="center">
    This is EXPERIMENTAL! If you do not wish to use hacks that do not work <br>as they are supposed to, please switch to the main branch or click <a href="https://github.com/Blooket-Cheats/Blooket-Hacks/">here.</a>
   </p>    <br /></div>
-<br /><br />
 
 <!-- USAGE -->
 #### ‎‎ 🧪 ‎ ‎ EXPERIMENTAL - [Switch to stable version](https://github.com/Blooket-Cheats/Blooket-Hacks/)
