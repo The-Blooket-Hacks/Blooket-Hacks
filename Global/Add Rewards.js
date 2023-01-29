@@ -13,9 +13,9 @@ if (0 == document.location.pathname.indexOf("/play")) {
       ['']
     ],
   ]).cache).find((x) => x.exports ?.a?.put).exports.a;
-  axios.get("https://dashboard.blooket.com/api/users/verify-session").then(a => {
+  axios.get("https://dashboard.blooket.com/api/users/me").then(blooket => {
     axios.put("https://play.blooket.com/api/users/add-rewards", {
-      name: a.data.name,
+      name: blooket.data.name,
       addedTokens: 500,
       addedXp: 300
     })
@@ -36,8 +36,7 @@ if (0 == document.location.pathname.indexOf("/play")) {
   document.body.append(n);
   window.alert = n.contentWindow.alert.bind(window);
   n.remove();
-  alert('You are being redirected to the correct page, once you are there, re-run this script');
-  setTimeout(window.location = 'https://play.blooket.com/play', 1000)
+  setTimeout(alert('You are being redirected to the correct page, once you are there, re-run this script'), window.location = 'https://play.blooket.com/play', 1000)
 }
 }
 
