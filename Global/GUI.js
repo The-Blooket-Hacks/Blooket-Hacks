@@ -22,7 +22,8 @@
                 width: "100%",
                 height: "100%",
                 position: "relative",
-                outline: "3px solid #3a3a3a",
+                webkitBoxShadow: "0px 0px 17px 8px rgba(137,137,137,0.68)", 
+                boxShadow: "0px 0px 17px 8px rgba(137,137,137,0.68)",
                 borderRadius: "15px",
                 overflow: "hidden"
             });
