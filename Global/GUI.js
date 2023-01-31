@@ -1,30 +1,12 @@
-/**
-* @license StewartPrivateLicense-2.0.0
-* Copyright (c) Aerell McKnight 2023
-*
-* You may not reproduce or distribute any code inside this file without the licenser's permission.
-* You may not copy, modify, steal, skid, or recreate any of the code inside this file.
-* You may not under any circumstance republish any code from this file as your own.
-* 
-* ALL TERMS STATED IN THE LINK BELOW APPLY ASWELL
-* https://github.com/Minesraft2/Blooket-Cheats/blob/main/LICENSE
-*/
-
-/* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
-
-/* Update Checker start */
-(async () => { /* This is to prevent "identifier i is already declared errors" */
+(async () => {
     let i = document.createElement('iframe');
     document.body.append(i);
     window.confirm = i.contentWindow.confirm.bind(window);
     i.remove();
-            /* Update Checker end */
-            /* // (() => { */
             const addStyles = (element, styles = {}) => Object.entries(styles).forEach(([key, value]) => element.style[key] = value);
             const animations = document.createElement("style");
             animations.innerHTML = `.cheatButton{position:relative;display:flex;flex-direction:row;align-items:center;min-height:40px;width:190px;margin:4px 0;padding-left:30px;box-sizing:border-box;cursor:pointer;user-select:none;text-decoration:none;border-top-right-radius:5px;border-bottom-right-radius:5px;background-color:transparent;color:#fff;transition:.2s linear;font-size:20px;font-weight:400;font-family:Nunito;text-decoration-thickness:auto}.cheatButton:hover{background-color:#fff;color:#9a49aa}.cheatInput,select{min-width:200px;padding-block:5px;font-family:Nunito,sans-serif;font-weight:400;font-size:16px;background-color:#7a039d;box-shadow:inset 0 6px rgb(0 0 0 / 20%);margin:3px;color:#fff}.bigButton:hover{filter:brightness(110%);transform:translateY(-2px)}.bigButton:active{transform:translateY(2px)}.cheatList::-webkit-scrollbar{width:10px}.cheatList::-webkit-scrollbar-track{background:#9a49aa}.cheatList::-webkit-scrollbar-thumb{background:#7b3a88}.cheatList::-webkit-scrollbar-thumb:hover{background:#700087}.scriptButton:hover{filter:brightness(120%)}.cheatInput{max-width:200px;border:none;border-radius:7px;caret-color:white}.cheatInput::placeholder{color:#fff}.cheatInput:focus,select:focus{outline:0}.cheatInput::-webkit-inner-spin-button,.cheatInput::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}.cheatInput[type=number]{-moz-appearance:textfield}select{border:none;border-radius:7px;text-align:center}`;
             
-            /* // https://dashboard.blooket.com/65a43218fd1cabe52bdf1cda34613e9e.png */
             const guiWrapper = document.createElement("div");
             guiWrapper.append(animations);
             guiWrapper.id = "JODGUI";
@@ -33,13 +15,6 @@
                 left: `${(Math.max(10, window.innerWidth/*  / (.75 / window.devicePixelRatio) */ - 1000) / 2)}px`,
                 position: "fixed", height: "80%", width: "80%", maxHeight: "600px", maxWidth: "1000px", zIndex: "999", display: "block"
             });
-            /* // guiWrapper.style.zoom = .75 / window.devicePixelRatio; */
-            /* // window.onresize = () => { */
-            /* //     guiWrapper.style.zoom = .75 / window.devicePixelRatio; */
-            
-            /* // } */
-            /* // guiWrapper.style.border = "3px solid #3a3a3a"; */
-            /* // guiWrapper.style.borderRadius = "20px"; */
             
             const gui = document.createElement("div");
             
