@@ -1,3 +1,18 @@
+/**
+* @license StewartPrivateLicense-2.0.0
+* Copyright (c) Aerell McKnight 2023
+*
+* You may not reproduce or distribute any code inside this file without the licenser's permission.
+* You may not copy, modify, steal, skid, or recreate any of the code inside this file.
+* You may not under any circumstance republish any code from this file as your own.
+* 
+* ALL TERMS STATED IN THE LINK BELOW APPLY ASWELL
+* https://github.com/Minesraft2/Blooket-Cheats/blob/main/LICENSE
+*/
+
+/* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
+
+/* Update Checker start */
 (async () => { /* This is to prevent "identifier i is already declared errors" */
     let i = document.createElement('iframe');
     document.body.append(i);
@@ -18,6 +33,14 @@
                 left: `${(Math.max(10, window.innerWidth/*  / (.75 / window.devicePixelRatio) */ - 1000) / 2)}px`,
                 position: "fixed", height: "80%", width: "80%", maxHeight: "600px", maxWidth: "1000px", zIndex: "999", display: "block"
             });
+            /* // guiWrapper.style.zoom = .75 / window.devicePixelRatio; */
+            /* // window.onresize = () => { */
+            /* //     guiWrapper.style.zoom = .75 / window.devicePixelRatio; */
+            
+            /* // } */
+            /* // guiWrapper.style.border = "3px solid #3a3a3a"; */
+            /* // guiWrapper.style.borderRadius = "20px"; */
+            
             const gui = document.createElement("div");
             
             addStyles(gui, {
@@ -2317,5 +2340,5 @@
                     e.preventDefault();
                     close();
                 }
-    });
+            }
 })();
