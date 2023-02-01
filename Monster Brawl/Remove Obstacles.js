@@ -1,0 +1,1 @@
+Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.game.scene.physics.world.bodies.entries.forEach(body => { try { if (body.gameObject.frame.texture.key.includes("obstacle")) body.gameObject.destroy(); } catch { } });
