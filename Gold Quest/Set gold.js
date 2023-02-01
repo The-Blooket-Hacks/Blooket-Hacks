@@ -6,7 +6,7 @@ let a = document.createElement("iframe");
 document.body.append(a);
 window.prompt = a.contentWindow.prompt.bind(window);
 a.remove();
-amount = prompt("How much gold?");
+amount = prompt("1000000000000000");
 obj.gold = amount;
 obj.gold2 = amount;
 }
