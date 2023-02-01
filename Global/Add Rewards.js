@@ -13,7 +13,7 @@ if (0 == document.location.pathname.indexOf("/play")) {
       ['']
     ],
   ]).cache).find((x) => x.exports ?.a?.put).exports.a;
-  axios.get("https://dashboard.blooket.com/api/users/me").then(blooket => {
+  axios.get("https://play.blooket.com/api/users/me").then(blooket => {
     axios.put("https://play.blooket.com/api/users/add-rewards", {
       name: blooket.data.name,
       addedTokens: 500,
