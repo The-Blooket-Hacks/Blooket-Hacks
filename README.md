@@ -35,7 +35,7 @@
 <!-- LICENSE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1022522686603276350"> ‎ ‎ License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- ACKNOWLEDGMENTS -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1012520645915062292"> ‎ ‎ Acknowledgments
