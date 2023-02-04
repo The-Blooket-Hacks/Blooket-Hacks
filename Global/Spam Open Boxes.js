@@ -4,15 +4,16 @@ if (console_msg("Spam Open Boxes")) {
 // Part 1
 var axios = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find((x) => x.exports?.a?.get).exports.a;
 let prices = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find(x => x?.exports?.a?.Safari).exports.a || {
-        Medieval: 15,
-        Breakfast: 15,
-        Wonderland: 15,
-        Space: 20,
-        Bot: 20,
-        Aquatic: 20,
-        Safari: 20,
-        Dino: 25,
-        "Ice Monster": 25
+        "Medieval": 15,
+        "Breakfast": 15,
+        "Wonderland": 15,
+        "Space": 20,
+        "Bot": 20,
+        "Aquatic": 20,
+        "Safari": 20,
+        "Dino": 25,
+        "Ice Monster": 25,
+	"Outback":25
     };;
 var packPrice;
 var baseElement = document.createElement("div");
