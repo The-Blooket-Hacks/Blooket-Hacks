@@ -12,7 +12,8 @@ let prices = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache
         Aquatic: 20,
         Safari: 20,
         Dino: 25,
-        "Ice Monster": 25
+        "Ice Monster": 25,
+	Outback: 25
     };;
 var packPrice;
 var baseElement = document.createElement("div");
