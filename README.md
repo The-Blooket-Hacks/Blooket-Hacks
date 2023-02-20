@@ -49,7 +49,9 @@
 - Click enter and then click the X in the top corner of the console
 
 <!-- CONTACT -->
-## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
+## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Credits
+
+• DISCLAIMER: Some of our code is made by other people, and we do not deserve full credit. 
 
 • ‎ <img width="18" src="https://i.ibb.co/XkWwv7D/A63558-E9-8-A93-42-F8-BF87-BA05-D2-EBD817.png"> ‎ cph101 • cph101\#<span>&#x30;&#x30;&#x30;</span>1 • cph101@icloud.com</span>
 
