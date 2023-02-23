@@ -9,7 +9,7 @@ if (console_msg("Instant Win")) {
     window.confirm = n.contentWindow.confirm.bind(window);
     n.remove();
             function reactHandler() {
-                return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
+                return Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner;
             };
 
             if (window.location.pathname != '/play/racing') {
