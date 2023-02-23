@@ -13,7 +13,7 @@ var blook3 = prompt("Enter blook code 3. (Nothing for blank):", "0#46#13#16#14$0
 var blook4 = prompt("Enter blook code 4. (Nothing for blank):", "0#46#13#16#14$0#39#32#4#8#3#4$0");
 var blook5 = prompt("Enter blook code 5. (Nothing for blank):", "0#46#13#16#14$0#39#32#4#8#3#4$0");
 
-Object.values(document.querySelector('#app > div > div'))[1].children[1]['_owner'].stateNode.state.customBlooks = [
+Object.values(document.querySelector('#app > div > div'))[1].children[0]['_owner'].stateNode.state.customBlooks = [
 	blook1,
 	blook2,
 	blook3,
