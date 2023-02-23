@@ -3,7 +3,7 @@
 if (console_msg("Always Get Spooky Ghost")) {
  setInterval(function() {
 try {
-   var obj = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode.state.choices[0];
+   var obj = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.choices[0];
    obj.name = "Spooky Ghost";
    obj.time = [
      1, 1 , 1 , 1 , 1];
