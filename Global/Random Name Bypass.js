@@ -1,7 +1,7 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
 if (console_msg("Random Name Bypass")) {
-var obj = Object.values(document.querySelector('#app > div > div'))[1].children[1]['_owner'].stateNode.state;
+var obj = Object.values(document.querySelector('#app > div > div'))[1].children[0]['_owner'].stateNode.state;
 if (obj.isRandom = true) {
   obj.isRandom = false
 }
