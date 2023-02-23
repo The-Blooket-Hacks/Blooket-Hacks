@@ -1,9 +1,9 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
 if (console_msg("Use Plus Features")) {
-Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.plus = true
-Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.state.user.hasPlus = true
-Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.forceUpdate()
+Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.plus = true
+Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.user.hasPlus = true
+Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.forceUpdate()
 }
 
 // Console Message Code
