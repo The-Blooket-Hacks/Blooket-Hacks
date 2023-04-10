@@ -1,6 +1,6 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
-if (console_msg("Spam Open Boxes")) {
+if (console_msg("Spam Open Packs")) {
 // Part 1
 var axios = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find((x) => x.exports?.a?.get).exports.a;
 let prices = Object.values(webpackJsonp.push([[], { ['']: (_, a, b) => { a.cache = b.c }, }, [['']],]).cache).find(x => x?.exports?.a?.Safari).exports.a || {
