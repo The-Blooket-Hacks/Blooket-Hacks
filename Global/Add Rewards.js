@@ -13,11 +13,14 @@ if (0 == document.location.pathname.indexOf("/play")) {
       ['']
     ],
   ]).cache).find((x) => x.exports ?.a?.put).exports.a;
-  axios.get("https://play.blooket.com/api/users/me").then(blooket => {
-    axios.put("https://play.blooket.com/api/users/add-rewards", {
-      name: blooket.data.name,
-      addedTokens: 500,
-      addedXp: 300
+  axios.post("https://play.blooket.com/api/playersessions/solo", { gameMode: "Factory" }).then(session => {
+    axios.get("https://play.blooket.com/api/users/me").then(blooket => {
+      axios.put("https://play.blooket.com/api/users/add-rewards", {
+        t: session.data.t,
+        name: blooket.data.name,
+        addedTokens: 500,
+        addedXp: 300
+      })
     })
   });
   let a = document.createElement("iframe");
