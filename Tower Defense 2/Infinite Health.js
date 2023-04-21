@@ -5,6 +5,37 @@ if (console_msg("Infinite Health")) {
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.forceUpdate();
   document.getElementsByClassName("styles__healthText___19UaF-camelCase")[0].innerHTML = "∞";
   document.getElementsByClassName("styles__healthBar___2lITn-camelCase")[0].style = "transform: ;";
+  document.head.innerHTML += `<style>
+  @-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+.styles__healthBarInside___2thhB-camelCase {
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3) !important;
+  background-size: 1800% 1800% !important;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+</style>`
 }
 
 // Console Message Code
