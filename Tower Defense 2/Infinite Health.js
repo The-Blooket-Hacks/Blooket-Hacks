@@ -6,10 +6,10 @@ if (console_msg("Infinite Health")) {
   document.getElementsByClassName("styles__healthText___19UaF-camelCase")[0].innerHTML = "∞";
   document.head.innerHTML += `<style>
 .styles__healthBarInside___2thhB-camelCase {
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
 }
 </style>`
-  document.getElementsByClassName("styles__healthBar___2lITn-camelCase")[0].style = "transform: ;";
+  document.getElementsByClassName("styles__healthBar___2lITn-camelCase")[0].style = "transform: scale(100%);";
 }
 
 // Console Message Code
