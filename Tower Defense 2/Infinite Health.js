@@ -3,7 +3,9 @@ if (console_msg("Infinite Health")) {
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.forceUpdate()
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.health = 100000000000000e1000000
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.forceUpdate()
+  window.setInterval({
   document.getElementsByClassName("styles__healthText___19UaF-camelCase")[0].innerHTML = "∞";
+  })
   document.getElementsByClassName("styles__healthBarInside___2thhB-camelCase")[0].style = "transform: ;"
 }
 
