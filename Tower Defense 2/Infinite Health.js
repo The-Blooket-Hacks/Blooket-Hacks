@@ -4,7 +4,6 @@ if (console_msg("Infinite Health")) {
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.health = 100000000000000e1000000;
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.forceUpdate();
   document.getElementsByClassName("styles__healthText___19UaF-camelCase")[0].innerHTML = "∞";
-  document.getElementsByClassName("styles__healthBar___2lITn-camelCase")[0].style = "transform: ;";
   document.head.innerHTML += `<style>
   @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
@@ -36,6 +35,7 @@ if (console_msg("Infinite Health")) {
   animation: rainbow 18s ease infinite;
 }
 </style>`
+  document.getElementsByClassName("styles__healthBar___2lITn-camelCase")[0].style = "transform: ;";
 }
 
 // Console Message Code
