@@ -1,4 +1,4 @@
-// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+// Blooket-Hacks  -  @ 2022 CrazyH & cph101 
 
 var path = "Global/Get All Blooks.js";
 var isBookmarklet = false;
