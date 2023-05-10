@@ -1,4 +1,4 @@
-if (console_msg("Infinite Health")) {
+if (console_msg("Infinite Coins")) {
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.coins = 10000000;
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.forceUpdate();
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.coins = 100000000000000e1000000;
