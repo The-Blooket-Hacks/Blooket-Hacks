@@ -1,42 +1,37 @@
-// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+// Blooket-Hacks  -  @ 2023 CrazyH & cph101
 
-if (console_msg("Higlight Answers")) {
-function highlightAns() { function makeRed(answerText) {
-    var allDivs = document.getElementsByTagName("div");
+// Console Message Start
+if (console_msg("Highlight Answers")) {
+// Console Message End
+// Updater Start
+window.popupAlert=function(msg){var baseElement=document.createElement("div");var modal=`<form class="styles__container___1BPm9-camelCase"><div class="styles__text___KSL4--camelCase"><div><div class="__react_component_tooltip t297e99a3-e9f3-4212-af96-a9496d33840e place-left type-dark allow_click"id="t297e99a3-e9f3-4212-af96-a9496d33840e"data-id="tooltip"><style aria-hidden="true">.t297e99a3-e9f3-4212-af96-a9496d33840e{color:#fff;background:#222;border:1px solid transparent;border-radius:undefinedpx;padding:8px 21px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-top{margin-top:-10px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-top::before{content:"";background-color:inherit;position:absolute;z-index:2;width:20px;height:12px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-top::after{content:"";position:absolute;width:10px;height:10px;border-top-right-radius:undefinedpx;border:1px solid transparent;background-color:#222;z-index:-2;bottom:-6px;left:50%;margin-left:-6px;transform:rotate(135deg)}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-bottom{margin-top:10px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-bottom::before{content:"";background-color:inherit;position:absolute;z-index:-1;width:18px;height:10px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-bottom::after{content:"";position:absolute;width:10px;height:10px;border-top-right-radius:undefinedpx;border:1px solid transparent;background-color:#222;z-index:-2;top:-6px;left:50%;margin-left:-6px;transform:rotate(45deg)}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-left{margin-left:-10px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-left::before{content:"";background-color:inherit;position:absolute;z-index:-1;width:10px;height:18px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-left::after{content:"";position:absolute;width:10px;height:10px;border-top-right-radius:undefinedpx;border:1px solid transparent;background-color:#222;z-index:-2;right:-6px;top:50%;margin-top:-6px;transform:rotate(45deg)}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-right{margin-left:10px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-right::before{content:"";background-color:inherit;position:absolute;z-index:-1;width:10px;height:18px}.t297e99a3-e9f3-4212-af96-a9496d33840e.place-right::after{content:"";position:absolute;width:10px;height:10px;border-top-right-radius:undefinedpx;border:1px solid transparent;background-color:#222;z-index:-2;left:-6px;top:50%;margin-top:-6px;transform:rotate(-135deg)}</style></div>${msg}</div></div><div class="styles__holder___3CEfN-camelCase"><div class="styles__buttonContainer___2EaVD-camelCase"><div id="confirmButton"class="styles__button___1_E-G-camelCase styles__button___3zpwV-camelCase"role="button"tabindex="0"><div class="styles__shadow___3GMdH-camelCase"></div><div class="styles__edge___3eWfq-camelCase"style="background-color: rgb(11, 194, 207);"></div><div class="styles__front___vcvuy-camelCase styles__buttonInside___39vdp-camelCase"style="background-color: rgb(11, 194, 207);">Okay</div></div></div></div><input type="submit"style="opacity: 0; display: none;"></form>`;document.querySelector("#app > div > div").appendChild(baseElement);document.querySelector("#app > div > div").lastChild.classList.add("arts__modal___VpEAD-camelCase");document.querySelector("#app > div > div").lastChild.innerHTML=modal;document.getElementById("confirmButton").addEventListener("click",function(){document.querySelector("#app > div > div").lastChild.remove();return true})}
 
-for(var i=0;i<allDivs.length;i++){
+var states=async function(){var a=await Object.values(webpackJsonp.push([[],{""(a,t,e){t.cache=e.c}},[[""]]]).cache).find((a=>a.exports?.a?.get)).exports.a.get("https://"+(location.host.startsWith("dashboard")?location.host:"play.blooket.com")+"/api/games?gameId=63c0629ea6bc7d1de8e2adff"),t=await{};for(let e of a.data.questions)t[e.question]=await e.correctAnswers[0];return await t}()
 
-if(allDivs[i].innerHTML == answerText){
+states.then((statesRes) => {
+	if(statesRes.maintenance == "enabled") {popupAlert("This Hack Has Been Disabled!<br/>Contact Us On Discord If You Think This Is An Error.");return;}
+	if(statesRes["Global/Highlight Answers.js"] > "1") {popupAlert("This Hack Is Outdated!");return;}
+	// Updater End
+	// Code
+function revealAnswers() {
+    var allDivs = document.querySelectorAll("div")
+    var green = "rgb(0, 207, 119);";
+    var red = "rgb(255, 70, 43);";
+    var stateNode = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode;
+    for (var i=0;i<allDivs.length;i++) {
 
-allDivs[i].parentNode.parentNode.style = "background-color: rgb(242, 57, 65);";
-break;
-
+        if (stateNode.state.question.answers.includes(allDivs[i].innerHTML)) {
+            allDivs[i].parentNode.parentNode.parentNode.style = "background-color: " + red;
+        }
+        if (stateNode.state.question.correctAnswers.includes(allDivs[i].innerHTML)) {
+            allDivs[i].parentNode.parentNode.parentNode.style = "background-color: " + green;
+        }
+    }
 }
 
-}
-}
-
-function makeGreen(answerText) {
-    var allDivs = document.getElementsByTagName("div");
-
-for(var i=0;i<allDivs.length;i++){
-
-if(allDivs[i].innerHTML == answerText){
-
-allDivs[i].parentNode.parentNode.style = "background-color: rgb(12, 176, 74);";
-break;
-
-}
-
-}
-}
-
-Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.answers.forEach(text => makeRed(text))
-
-Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.correctAnswers.forEach(text => makeGreen(text))  }
-
-
-window.setInterval(highlightAns)
+window.setInterval(revealAnswers);
+});
+// Console Message Start
 }
 
 // Console Message Code
@@ -71,3 +66,4 @@ function console_msg(file, state) {
        console.groupEnd(); // Close Console Group
        if (state != true) alert(state);
 }};
+// Console Message End
