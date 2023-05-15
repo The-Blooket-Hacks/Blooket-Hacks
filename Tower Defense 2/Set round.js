@@ -3,7 +3,7 @@ if (console_msg("Set Round")) {
   document.body.append(iframe);
   window.prompt = iframe.contentWindow.prompt.bind(window);
   iframe.remove();
-  Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.coins = window.prompt("Which round do you want to be on?");
+  Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.round = window.prompt("Which round do you want to be on?");
   Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.forceUpdate();
 }
 
