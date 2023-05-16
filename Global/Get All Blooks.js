@@ -20,7 +20,7 @@ if (location.pathname == "/blooks") {
     statenode.state.blookData = Object.keys(blooks).reduce((a, b) => (a[b] = (statenode.state.blookData[b] || 1), a), {});
     statenode.state.allSets = Object.values(blooks).reduce((a, b) => (a.includes(b.set) ? a : a.concat(b.set)), [])
 } else {
-    statenode.state.unlocks = Object.keys(blooks)
+    statenode.setState({ unlocks: Object.keys(blooks) });
 }
 statenode.forceUpdate()
 });
