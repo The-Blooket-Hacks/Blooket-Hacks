@@ -12,7 +12,7 @@ function getStateNode(){
 }
 window.setInterval(()=>{
     try{
-        getStateNode().onAnswer(getStateNode().props.client.question.correctAnswers[0].toString());
+        Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.props.client.question.correctAnswers[0].toString());
     }catch {
         
     }
