@@ -16,9 +16,6 @@ if (console_msg("Set Fossils")) {
                 reactHandler().stateNode.setState({ fossils: fossils });
 
                 alert('Fossils added!');
-            } catch (e) {
-                console.log("Generic Error. :(")
-            };
 })();
 }
 
