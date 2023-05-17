@@ -17,7 +17,7 @@ function revealAnswers() {
     var allDivs = document.querySelectorAll("div")
     var green = "rgb(0, 207, 119);";
     var red = "rgb(255, 70, 43);";
-    var stateNode = Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner.stateNode;
+    var stateNode = Object.values(document.querySelector("#app2 > div > div"))[1].children[1]._owner.stateNode;
     for (var i=0;i<allDivs.length;i++) {
 
         if (stateNode.state.question.answers.includes(allDivs[i].innerHTML)) {
