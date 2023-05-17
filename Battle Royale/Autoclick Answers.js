@@ -2,9 +2,9 @@
 
 if (console_msg("Autoclick Answers")) {
 function getStateNode(){
-    for(let i of Object.keys(document.querySelector("#app>div>div"))){
+    for(let i of Object.keys(document.querySelector("#app2>div>div"))){
         if(i.toString().includes("__reactEventHandlers")){
-            for(let p of Object.values(document.querySelector("#app>div>div")[i].children.filter(n=>n))){
+            for(let p of Object.values(document.querySelector("#app2>div>div")[i].children.filter(n=>n))){
                 if(p._owner&&p._owner.stateNode)return p._owner.stateNode
             }
         }
@@ -12,7 +12,7 @@ function getStateNode(){
 }
 window.setInterval(()=>{
     try{
-        Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.props.client.question.correctAnswers[0].toString());
+        Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.props.client.question.correctAnswers[0].toString());
     }catch {
         
     }
