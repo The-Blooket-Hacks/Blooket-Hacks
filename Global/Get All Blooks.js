@@ -1,7 +1,7 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
 if (console_msg("Get All Blooks")) {
-var statenode = Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode;
+var statenode = Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode;
 var blooks = webpackJsonp.push([[], { ['1234']: (_, a, b) => { a.webpack = b } }, [['1234']]]).webpack("MDrD").a;
 
 if (location.pathname == "/blooks") {
