@@ -9,18 +9,18 @@ if (console_msg("Reel in Spooky Ghost")) {
     window.confirm = n.contentWindow.confirm.bind(window);
     n.remove();
             function reactHandler() {
-                return Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner;
+                return Object.values(document.querySelector('#app2 > div > div'))[1].children[1]._owner;
             };
         
             if (window.location.pathname != '/play/fishing') {
                 alert('You must be in a fishing frenzy game!');
             } else {
-                Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.fish.isSpecial = true;
-                Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.fish.name = "Spooky Ghost";
-                Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.fish.rarity = "Impossible LOL";
-                Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.fish.tier = "Z";
-                Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.fish.weight = Number(999999999999999999);
-                Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.fish.forceUpdate()
+                Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.state.fish.isSpecial = true;
+                Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.state.fish.name = "Spooky Ghost";
+                Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.state.fish.rarity = "Impossible LOL";
+                Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.state.fish.tier = "Z";
+                Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.state.fish.weight = Number(999999999999999999);
+                Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.state.fish.forceUpdate()
         
                 alert('Ur reeling in lol!');
             };
