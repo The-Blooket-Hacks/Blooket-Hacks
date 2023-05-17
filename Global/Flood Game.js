@@ -4,11 +4,11 @@ if (console_msg("Flood Game")) {
 
 //new blooket api has rate limit so it's hard to make a flood thing.
 function getStateNode() {
-	for (let i of Object.keys(document.querySelector("#app>div>div"))) {
+	for (let i of Object.keys(document.querySelector("#app2 > div > div"))) {
 		if (i.toString().includes("__reactEventHandlers")) {
 			for (let p of Object.values(
 				document
-					.querySelector("#app>div>div")
+					.querySelector("#app2 > div > div")
 					[i].children.filter((n) => n)
 			)) {
 				if (p._owner && p._owner.stateNode) return p._owner.stateNode;
