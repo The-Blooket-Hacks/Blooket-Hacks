@@ -27,7 +27,7 @@ break;
     }
 }
 function checkPlayers() {
-Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.state.players.forEach(player => checkPlayer(player))
+Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.players.forEach(player => checkPlayer(player))
 }
 
 window.setInterval(checkPlayers)
