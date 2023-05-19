@@ -1,7 +1,7 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
 if (console_msg("Op Fossils")) {
-Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.setState({ "fossilMult":10000000000})
+Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.setState({ "fossilMult":10000000000})
 }
 
 // Console Message Code
