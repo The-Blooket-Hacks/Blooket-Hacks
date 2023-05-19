@@ -2,7 +2,7 @@
 
 if (console_msg("End Game")) {
 if (location.pathname.includes("host/") == true && location.pathname != "host/join") {
-  Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.props.deleteHost();
+  Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.props.deleteHost();
 }
 }
 
