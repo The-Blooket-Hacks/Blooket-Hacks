@@ -36,10 +36,10 @@ axios.get("/api/users").then(async ({ data: { name, unlocks } }) => {
       <input type="submit" style="opacity: 0; display: none;">
     </form>`;
 
-    document.querySelector("#app2 > div > div").appendChild(baseElement);
-    document.querySelector("#app2 > div > div").lastChild.classList.add("arts__modal___VpEAD-camelCase");
-    document.querySelector("#app2 > div > div").lastChild.innerHTML = modal;
-    document.getElementById("cnclBtn").addEventListener("click", function(){document.querySelector(`#app2 > div > div`).lastChild.remove()})
+    document.querySelector("#app > div > div").appendChild(baseElement);
+    document.querySelector("#app > div > div").lastChild.classList.add("arts__modal___VpEAD-camelCase");
+    document.querySelector("#app > div > div").lastChild.innerHTML = modal;
+    document.getElementById("cnclBtn").addEventListener("click", function(){document.querySelector(`#app > div > div`).lastChild.remove()})
 });
 }
 
