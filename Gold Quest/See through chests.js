@@ -16,7 +16,7 @@ if (console_msg("See Through Chests")) {
                 interval = setInterval(() => {
                     if (window.location.pathname != '/play/gold') return clearInterval(interval);
 
-                    data = Object.values(document.querySelector('#app2 > div > div'))[1].children[1]._owner.stateNode.state;
+                    data = Object.values(document.querySelector('#app > div > div'))[1].children[1]._owner.stateNode.state;
 
                     if (data?.stage == 'prize') {
                         boxes = data.choices;
