@@ -2,8 +2,8 @@
 
 if (console_msg("Whisper Answers")) {
 function whisperAnswer() {
-var correctAns = Object.values(document.querySelector("#app2 > div > div"))[1].children[0]._owner.stateNode.state.question.correctAnswers[0];
-var ansArray = Object.values(document.querySelector("#app2 > div > div"))[1].children[0]._owner.stateNode.state.question.answers;
+var correctAns = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.correctAnswers[0];
+var ansArray = Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner.stateNode.state.question.answers;
 var ansIndex = ansArray.indexOf(correctAns);
 document.getElementsByClassName("styles__playerEnergy___G4cGN-camelCase")[0].innerHTML = ansIndex+1;};
 
