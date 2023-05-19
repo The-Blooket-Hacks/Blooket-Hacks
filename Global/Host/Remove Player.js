@@ -12,7 +12,7 @@ if (location.pathname == "host/join") {
 })();
 var client = prompt("Enter the name of the player you would like to remove");
 try {
-    var clients_array = Object.keys(Object.values(document.querySelector('#app2 > div > div'))[1].children[0]._owner.stateNode.state.host.clients);
+    var clients_array = Object.keys(Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode.state.host.clients);
     var index_var = clients_array.map(item => item).indexOf(client);
     document.getElementsByClassName("styles__clientBox___3pIbU-camelCase")[index_var].click();
 } catch(error) {
