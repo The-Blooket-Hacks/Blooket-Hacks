@@ -1,4 +1,6 @@
 // Blooket-Hacks  -  @ 2023 CrazyH & cph101
+
+var alertAllow = document.createElement('iframe');document.body.append(alertAllow);window.alert = alertAllow.contentWindow.alert.bind(window);alertAllow.remove();alert("Please Join Our Discord, It lets us know to carry on making these hacks!\nhttps://discord.gg/Td44dJqqcT");
  
 // Console Message Start
 if (console_msg("Highlight Answers")) {
