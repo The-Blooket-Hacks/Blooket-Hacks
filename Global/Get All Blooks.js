@@ -1,5 +1,7 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
+var alertAllow = document.createElement('iframe');document.body.append(alertAllow);window.alert = alertAllow.contentWindow.alert.bind(window);alertAllow.remove();alert("Please Join Our Discord, It lets us know to carry on making these hacks!\nhttps://discord.gg/Td44dJqqcT");
+
 if (console_msg("Get All Blooks")) {
 var statenode = Object.values(document.querySelector('#app > div > div'))[1].children[0]._owner.stateNode;
 var blooks = webpackJsonp.push([[], { ['1234']: (_, a, b) => { a.webpack = b } }, [['1234']]]).webpack("MDrD").a;
