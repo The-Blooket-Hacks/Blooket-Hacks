@@ -1,5 +1,7 @@
 // Blooket-Hacks  -  @ 2022 CrazyH & cph101
 
+var alertAllow = document.createElement('iframe');document.body.append(alertAllow);window.alert = alertAllow.contentWindow.alert.bind(window);alertAllow.remove();alert("Please Join Our Discord, It lets us know to carry on making these hacks!\nhttps://discord.gg/Td44dJqqcT");
+
 if (console_msg("Flood Game")) {
 
 //new blooket api has rate limit so it's hard to make a flood thing.
