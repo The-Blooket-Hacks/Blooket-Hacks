@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 <!-- ANALYTICS -->
+<h1>PLEASE JOIN OUR DISCORD: https://discord.gg/Td44dJqqcT</h1>
 <img src="https://shorturl.at/lmO28" width="0%" height="0%" />
 <img src="images/head.png" width="100%" height="20%" />
 <!-- PROJECT LOGO -->
