@@ -49,7 +49,7 @@
 - Paste the code in at the bottom of the page in the console box
 - Click enter and then click the X in the top corner of the console
 > **Note**
-> The Hacks are currently under major refurbishment, please hold on while we do something special.
+> The Hacks are currently under major refurbishment, please hold on while I do something special.
 
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
