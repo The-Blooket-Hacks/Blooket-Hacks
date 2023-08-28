@@ -10,7 +10,7 @@
 	 <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
   </a>
   
-<h3 align="center">Blooket Hacks (Console Mode)</h3>
+<h3 align="center">Blooket Hacks Extention</h3>
 <h4 align="center">Made By <a href="https://github.com/BlooketProHacker/">Blooket Pro Hacker</a></h4>
 
 <span id="badges-container">
@@ -24,10 +24,9 @@
 </span>
 
   <p align="center">
-   Welcome to the first repository with fully unobfuscated, working hacks.
-   I will strive to only provide unobfuscated versions, so that people know what is in it.
+   A repository with Blooket Hacks as a working Chrome extension.
+   I will strive only to provide stable versions so people know there aren't many bugs.
    <i>Please do not market it as your own, and make copies private please.</i>
-   I have based some of these off other peoples', with some edits to improve it.
     <br />
     <br />
     <a href="https://github.com/The-Blooket-Hacks/Blooket-Hacks/wiki"><img height="35px" src="https://github.com/The-Blooket-Hacks/Blooket-Hacks/blob/main/images/wikiBtn.svg?raw=true"></a>
