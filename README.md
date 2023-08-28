@@ -1,6 +1,10 @@
 <a name="readme-top"></a>
 <!-- ANALYTICS -->
 <h1>PLEASE JOIN THE DISCORD: https://discord.gg/Td44dJqqcT</h1>
+
+> **Note**
+> The Hacks are currently under major refurbishment, please hold on while I do something special.
+
 <img src="https://shorturl.at/lmO28" width="0%" height="0%" />
 <img src="images/head.png" width="100%" height="20%" />
 <!-- PROJECT LOGO -->
@@ -12,6 +16,7 @@
   
 <h3 align="center">Blooket Hacks Extention</h3>
 <h4 align="center">Made By <a href="https://github.com/BlooketProHacker/">Blooket Pro Hacker</a></h4>
+
 
 <span id="badges-container">
 	
@@ -38,17 +43,8 @@
 <br /><br />
 
 <!-- USAGE -->
-## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ Hack Usage
-#### ‎‎ <img width="15" src="https://cdn.discordapp.com/emojis/1061737306534449233"> ‎ ‎ Console mode - [Switch to Bookmarklet mode](https://github.com/Blooket-Cheats/Blooket-Hacks/tree/bookmarklets)
-- Find the hack you want
-- Click the copy button
-- Go to the Blooket page
-- Right click and click inspect
-- Click console and top of the page
-- Paste the code in at the bottom of the page in the console box
-- Click enter and then click the X in the top corner of the console
-> **Note**
-> The Hacks are currently under major refurbishment, please hold on while I do something special.
+## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ How to install
+- Not finished extension yet! Please wait a week and come back!
 
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
