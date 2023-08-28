@@ -3,7 +3,7 @@
 <h1>PLEASE JOIN THE DISCORD: https://discord.gg/Td44dJqqcT</h1>
 
 > **Note**
-> The Hacks are currently under major refurbishment, please hold on while I do something special.
+> The Hacks are currently under major refurbishment. Please hold on while I do something special.
 
 <img src="https://shorturl.at/lmO28" width="0%" height="0%" />
 <img src="images/head.png" width="100%" height="20%" />
@@ -14,7 +14,7 @@
 	 <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
   </a>
   
-<h3 align="center">Blooket Hacks Extention</h3>
+<h3 align="center">Blooket Hacks Extension</h3>
 <h4 align="center">Made By <a href="https://github.com/BlooketProHacker/">Blooket Pro Hacker</a></h4>
 
 
@@ -44,7 +44,7 @@
 
 <!-- USAGE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ How to install
-- Not finished extension yet! Please wait a week and come back!
+- Not finished the extension yet! Please wait a week and come back!
 
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
