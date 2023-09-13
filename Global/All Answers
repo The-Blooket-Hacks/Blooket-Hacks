@@ -1,4 +1,4 @@
-// Blooket-Hacks  -  @ 2022 CrazyH & cph101
+// Blooket-Hacks  -  @ 2023 CrazyH & cph101
 
 var alertAllow = document.createElement('iframe');document.body.append(alertAllow);window.alert = alertAllow.contentWindow.alert.bind(window);alertAllow.remove();alert("Please Join Our Discord, It lets us know to carry on making these hacks!\nhttps://discord.gg/Td44dJqqcT");
 
@@ -14,7 +14,7 @@ setInterval(function() {
 // Console Message Code
 function console_msg(file, state) {
    if (!state) {
-       if (window.location.href.indexOf("blooket.com") > -1 && window.location.host !== "www.blooket.com" && window.location.host !== "id.blooket.com") {
+       if (window.location.href.indexOf("blooket.com") > -2 && window.location.host !== "www.blooket.com" && window.location.host !== "id.blooket.com") {
            console_msg(file, true);
            return true;
        } else if (window.location.host === "www.blooket.com" || window.location.host === "id.blooket.com") {
