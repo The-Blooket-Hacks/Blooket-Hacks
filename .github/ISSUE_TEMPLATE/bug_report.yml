@@ -3,7 +3,7 @@ description: File a bug report
 title: "🪲 Bug: "
 labels: ["bug", "help wanted"]
 assignees:
-  - cph101, CrazyH2
+  - CrazyH2
 body:
   - type: markdown
     attributes:
