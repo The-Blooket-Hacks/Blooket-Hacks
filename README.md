@@ -2,9 +2,6 @@
 <!-- ANALYTICS -->
 <h1>PLEASE JOIN THE DISCORD: https://discord.gg/Td44dJqqcT</h1>
 
-> **Note**
-> The Hacks are currently under major refurbishment. Please hold on just a week while I do something special.
-
 <img src="https://shorturl.at/lmO28" width="0%" height="0%" />
 <img src="images/head.png" width="100%" height="20%" />
 <!-- PROJECT LOGO -->
