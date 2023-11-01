@@ -3,7 +3,7 @@ description: Request a hack
 title: "🏝️ Feature Request: "
 labels: ["enhancement"]
 assignees:
-  - cph101, CrazyH2
+  - CrazyH2
 body:
   - type: markdown
     attributes:
