@@ -2,6 +2,9 @@
 <!-- ANALYTICS -->
 <h1>PLEASE JOIN THE DISCORD: https://discord.gg/Td44dJqqcT</h1>
 
+> **NOTE**
+> The themes and scripts list is located here: <a href="https://github.com/The-Blooket-Hacks/Blooket-Hacks/wiki/Scripts-And-Themes">CLICK THIS</a>
+
 <img src="https://shorturl.at/lmO28" width="0%" height="0%" />
 <img src="images/head.png" width="100%" height="20%" />
 <!-- PROJECT LOGO -->
@@ -51,6 +54,7 @@
 - When the file select window appears, choose the folder you downloaded.
 - Restart Chrome and open the Blooket website.
 - Login and navigate to the dashboard, where more buttons will appear on the sidebar.
+- Click on scripts or themes and then you can install one!
 
 
 <!-- CONTACT -->
