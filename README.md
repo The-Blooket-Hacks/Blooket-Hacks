@@ -41,7 +41,7 @@
 
 <!-- USAGE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ How to install
-- Not finished the extension yet! Please wait a week and come back!
+- Download the extention from <a href="https://github.com/The-Blooket-Hacks/Blooket-Hacks/realeses">here</a>
 
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
