@@ -41,7 +41,16 @@
 
 <!-- USAGE -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1034440804938301447"> ‎ ‎ How to install
-- Download the extention from <a href="https://github.com/The-Blooket-Hacks/Blooket-Hacks/realeses">here</a>
+- Download the extension from <a href="https://github.com/The-Blooket-Hacks/Blooket-Hacks/releases/latest">here</a>.
+- If the file is zipped, then unzip it.
+- Open either Google Chrome, Microsoft Edge, Chromium, or Arc. (Any browser that supports Chrome extensions)
+- Open the extensions page where it lists all the extensions.
+- Click on developer mode to enable it. (Top right corner on Chrome)
+- Click the load unpacked button. (Top Left on Chrome)
+- When the file select window appears, choose the folder you downloaded.
+- Restart Chrome and open the Blooket website.
+- Login and navigate to the dashboard, where more buttons will appear on the sidebar.
+
 
 <!-- CONTACT -->
 ## ‎‎ <img width="18" src="https://cdn.discordapp.com/emojis/1035536629407957042"> ‎ ‎ Contact
