@@ -11,7 +11,7 @@
 	 <img src="images/animated_icon.gif" alt="Logo" width="200" height="200" />
   </a>
   
-<h3 align="center">Blooket Hacks Extension</h3>
+<h3 align="center">Blooket Hacks Extension (Hacklet)</h3>
 <h4 align="center">Made By <a href="https://github.com/BlooketProHacker/">Blooket Pro Hacker</a></h4>
 
 
