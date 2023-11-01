@@ -26,7 +26,8 @@
 </span>
 
   <p align="center">
-   A repository with Blooket Hacks as a working Chrome extension.
+   The First Chrome Extension for Blooket that add plugin and themes built-in!
+   We constantly update the plugins and themes.<br>
    I will strive only to provide stable versions so people know there aren't many bugs.
    <i>Please do not market it as your own, and make copies private please.</i>
     <br />
