@@ -26,9 +26,9 @@
 </span>
 
   <p align="center">
-   The First Chrome Extension for Blooket that add plugin and themes built-in!
+   The First Chrome Extension for Blooket that add plugin and themes built-in!<br>
    We constantly update the plugins and themes.<br>
-   I will strive only to provide stable versions so people know there aren't many bugs.
+   I will strive only to provide stable versions so people know there aren't many bugs.<br>
    <i>Please do not market it as your own, and make copies private please.</i>
     <br />
     <br />
